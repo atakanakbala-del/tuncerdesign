@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tuncer Design | Endüstriyel Mutfak & Restoran Çözümleri</title>
+    <link rel="icon" type="image/png" href="https://atakanakbala-del.github.io/tuncerdesign/Tuncerdesing.png">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
@@ -29,12 +30,10 @@
         
         .font-display { font-family: 'Playfair Display', serif; }
         
-        /* Custom Scrollbar */
         ::-webkit-scrollbar { width: 8px; }
         ::-webkit-scrollbar-track { background: #f1f1f1; }
         ::-webkit-scrollbar-thumb { background: var(--primary); border-radius: 4px; }
         
-        /* Hero Animation */
         .hero-bg {
             background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
             position: relative;
@@ -54,7 +53,6 @@
             66% { transform: translate(-20px, 20px) scale(0.9); }
         }
         
-        /* Glassmorphism */
         .glass {
             background: rgba(255, 255, 255, 0.9);
             backdrop-filter: blur(12px);
@@ -62,7 +60,6 @@
             border: 1px solid rgba(255, 255, 255, 0.3);
         }
         
-        /* Service Cards */
         .service-card {
             transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
             position: relative;
@@ -98,7 +95,6 @@
             transition: all 0.4s ease;
         }
         
-        /* Process Steps */
         .step-line {
             position: absolute;
             left: 50%;
@@ -120,7 +116,6 @@
             z-index: 10;
         }
         
-        /* Marquee */
         .marquee-container {
             overflow: hidden;
             white-space: nowrap;
@@ -136,7 +131,6 @@
             100% { transform: translateX(-50%); }
         }
         
-        /* Button Styles */
         .btn-primary {
             background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
             color: white;
@@ -173,7 +167,6 @@
             transform: translateY(-2px);
         }
         
-        /* Image Hover */
         .img-hover {
             overflow: hidden;
             border-radius: 16px;
@@ -187,7 +180,6 @@
             transform: scale(1.1);
         }
         
-        /* Counter Animation */
         .counter {
             font-size: 3rem;
             font-weight: 800;
@@ -195,7 +187,6 @@
             line-height: 1;
         }
         
-        /* Navigation */
         .nav-link {
             position: relative;
             padding: 8px 0;
@@ -214,7 +205,6 @@
         
         .nav-link:hover::after { width: 100%; }
         
-        /* Mobile Menu */
         .mobile-menu {
             transform: translateX(100%);
             transition: transform 0.3s ease;
@@ -222,7 +212,6 @@
         
         .mobile-menu.active { transform: translateX(0); }
         
-        /* Loading Animation */
         .loader {
             position: fixed;
             top: 0;
@@ -275,7 +264,6 @@
             100% { width: 100%; }
         }
         
-        /* Toast Notification */
         .toast {
             position: fixed;
             bottom: 30px;
@@ -299,7 +287,6 @@
             opacity: 1;
         }
         
-        /* Parallax */
         .parallax {
             background-attachment: fixed;
             background-position: center;
@@ -307,45 +294,21 @@
             background-size: cover;
         }
         
-        /* Smooth Reveal */
         .reveal {
             opacity: 0;
             transform: translateY(30px);
         }
         
-        /* Logo Styles */
         .logo-img {
-            height: 50px;
+            height: 55px;
             width: auto;
-            object-fit: contain;
+            display: block;
         }
         
-        .logo-img-large {
-            height: 80px;
-            width: auto;
-            object-fit: contain;
-        }
-        
-        .logo-img-loader {
-            height: 140px;
-            width: auto;
-            object-fit: contain;
-        }
-        
-        /* Footer Logo - Keep original colors */
         .footer-logo {
             height: 70px;
             width: auto;
-            object-fit: contain;
-            /* No filter applied - keeps original colors */
-        }
-        
-        /* Logo Container for dark backgrounds */
-        .logo-container-light {
-            background: white;
-            padding: 12px 24px;
-            border-radius: 12px;
-            display: inline-block;
+            display: block;
         }
         
         .logo-container-dark {
@@ -355,13 +318,20 @@
             display: inline-block;
             box-shadow: 0 4px 20px rgba(0,0,0,0.08);
         }
+        
+        .logo-fallback {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--primary);
+        }
     </style>
 </head>
 <body>
 
     <!-- Loader -->
     <div class="loader" id="loader">
-        <img src="/mnt/agents/upload/Tuncerdesing.png" alt="Tuncer Design" class="loader-logo">
+        <img src="https://atakanakbala-del.github.io/tuncerdesign/Tuncerdesing.png" alt="Tuncer Design" class="loader-logo">
         <div class="loader-bar">
             <div class="loader-progress"></div>
         </div>
@@ -381,12 +351,10 @@
         <div class="glass shadow-sm">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between items-center h-24">
-                    <!-- Logo - Original Colors Preserved -->
-                    <a href="#anasayfa" class="flex items-center">
-                        <img src="/mnt/agents/upload/Tuncerdesing.png" alt="Tuncer Design" class="logo-img">
+                    <a href="#anasayfa" class="flex items-center gap-3">
+                        <img src="https://atakanakbala-del.github.io/tuncerdesign/Tuncerdesing.png" alt="Tuncer Design" class="logo-img">
                     </a>
 
-                    <!-- Desktop Menu -->
                     <div class="hidden md:flex items-center gap-8">
                         <a href="#anasayfa" class="nav-link text-gray-700 hover:text-[#1e3a5f] font-medium text-sm">Anasayfa</a>
                         <a href="#hizmetler" class="nav-link text-gray-700 hover:text-[#1e3a5f] font-medium text-sm">Hizmetler</a>
@@ -399,7 +367,6 @@
                         </a>
                     </div>
 
-                    <!-- Mobile Menu Button -->
                     <button class="md:hidden text-[#1e3a5f] text-2xl" id="menuBtn">
                         <i class="fas fa-bars"></i>
                     </button>
@@ -411,7 +378,7 @@
     <!-- Mobile Menu -->
     <div class="mobile-menu fixed inset-0 bg-white z-50 p-8" id="mobileMenu">
         <div class="flex justify-between items-center mb-12">
-            <img src="/mnt/agents/upload/Tuncerdesing.png" alt="Tuncer Design" class="logo-img">
+            <img src="https://atakanakbala-del.github.io/tuncerdesign/Tuncerdesing.png" alt="Tuncer Design" class="logo-img">
             <button class="text-2xl text-gray-600" id="closeMenu">
                 <i class="fas fa-times"></i>
             </button>
@@ -495,7 +462,6 @@
                         </div>
                     </div>
                     
-                    <!-- Floating Stats -->
                     <div class="absolute -bottom-6 -left-6 glass rounded-xl p-4 shadow-xl z-20 hidden lg:block">
                         <div class="flex items-center gap-3">
                             <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center text-green-600">
@@ -524,7 +490,6 @@
         </div>
     </section>
 
-    <!-- Marquee -->
     <div class="bg-[#1e3a5f] py-4 overflow-hidden">
         <div class="marquee-container">
             <div class="marquee-content text-white/80 text-sm font-medium tracking-widest">
@@ -533,7 +498,6 @@
         </div>
     </div>
 
-    <!-- Stats Section -->
     <section class="py-20 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -557,184 +521,112 @@
         </div>
     </section>
 
-    <!-- Services Section -->
     <section id="hizmetler" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 reveal">
                 <div class="inline-block px-4 py-1 bg-[#c9a962]/10 text-[#c9a962] rounded-full text-sm font-bold mb-4">HİZMETLERİMİZ</div>
                 <h2 class="font-display text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-4">Kapsamlı Çözüm Ortağınız</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">Restoran ve işletme kurulumunun her aşamasında yanınızdayız. Tüm hizmetleri tek çatı altında sunuyoruz.</p>
+                <p class="text-gray-600 max-w-2xl mx-auto">Restoran ve işletme kurulumunun her aşamasında yanınızdayız.</p>
             </div>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Service 1 -->
                 <div class="service-card bg-gray-50 rounded-2xl p-8 cursor-pointer reveal">
-                    <div class="icon-box mb-6 text-[#1e3a5f] text-2xl">
-                        <i class="fas fa-utensils"></i>
-                    </div>
+                    <div class="icon-box mb-6 text-[#1e3a5f] text-2xl"><i class="fas fa-utensils"></i></div>
                     <h3 class="text-xl font-bold text-[#1e3a5f] mb-3">Endüstriyel Mutfak</h3>
                     <p class="text-gray-600 text-sm leading-relaxed">Paslanmaz çelik mutfak ekipmanları, ocaklar, fırınlar, davlumbazlar ve özel üretim çözümleri.</p>
-                    <div class="mt-6 flex items-center gap-2 text-[#1e3a5f] font-semibold text-sm group">
-                        <span>Detaylar</span>
-                        <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
-                    </div>
                 </div>
-
-                <!-- Service 2 -->
                 <div class="service-card bg-gray-50 rounded-2xl p-8 cursor-pointer reveal">
-                    <div class="icon-box mb-6 text-[#1e3a5f] text-2xl">
-                        <i class="fas fa-drafting-compass"></i>
-                    </div>
+                    <div class="icon-box mb-6 text-[#1e3a5f] text-2xl"><i class="fas fa-drafting-compass"></i></div>
                     <h3 class="text-xl font-bold text-[#1e3a5f] mb-3">Mimarlık Desteği</h3>
                     <p class="text-gray-600 text-sm leading-relaxed">İç mekan tasarımı, mutfak planlaması, ergonomik düzen ve estetik çözümler.</p>
-                    <div class="mt-6 flex items-center gap-2 text-[#1e3a5f] font-semibold text-sm group">
-                        <span>Detaylar</span>
-                        <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
-                    </div>
                 </div>
-
-                <!-- Service 3 -->
                 <div class="service-card bg-gray-50 rounded-2xl p-8 cursor-pointer reveal">
-                    <div class="icon-box mb-6 text-[#1e3a5f] text-2xl">
-                        <i class="fas fa-tools"></i>
-                    </div>
+                    <div class="icon-box mb-6 text-[#1e3a5f] text-2xl"><i class="fas fa-tools"></i></div>
                     <h3 class="text-xl font-bold text-[#1e3a5f] mb-3">Özel Üretim</h3>
                     <p class="text-gray-600 text-sm leading-relaxed">İsteğe bağlı özel ölçü ve tasarımlarda mutfak ekipmanları üretimi.</p>
-                    <div class="mt-6 flex items-center gap-2 text-[#1e3a5f] font-semibold text-sm group">
-                        <span>Detaylar</span>
-                        <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
-                    </div>
                 </div>
-
-                <!-- Service 4 -->
                 <div class="service-card bg-gray-50 rounded-2xl p-8 cursor-pointer reveal">
-                    <div class="icon-box mb-6 text-[#1e3a5f] text-2xl">
-                        <i class="fas fa-hammer"></i>
-                    </div>
+                    <div class="icon-box mb-6 text-[#1e3a5f] text-2xl"><i class="fas fa-hammer"></i></div>
                     <h3 class="text-xl font-bold text-[#1e3a5f] mb-3">Tadilat & İnşaat</h3>
                     <p class="text-gray-600 text-sm leading-relaxed">Komple restoran tadilatı, elektrik, su tesisatı, zemin ve duvar işleri.</p>
-                    <div class="mt-6 flex items-center gap-2 text-[#1e3a5f] font-semibold text-sm group">
-                        <span>Detaylar</span>
-                        <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
-                    </div>
                 </div>
-
-                <!-- Service 5 -->
                 <div class="service-card bg-gray-50 rounded-2xl p-8 cursor-pointer reveal">
-                    <div class="icon-box mb-6 text-[#1e3a5f] text-2xl">
-                        <i class="fas fa-sign"></i>
-                    </div>
+                    <div class="icon-box mb-6 text-[#1e3a5f] text-2xl"><i class="fas fa-sign"></i></div>
                     <h3 class="text-xl font-bold text-[#1e3a5f] mb-3">Tabela & Görsel</h3>
                     <p class="text-gray-600 text-sm leading-relaxed">Işıklı tabela, kutu harf, dijital baskı, menü panoları ve kurumsal kimlik.</p>
-                    <div class="mt-6 flex items-center gap-2 text-[#1e3a5f] font-semibold text-sm group">
-                        <span>Detaylar</span>
-                        <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
-                    </div>
                 </div>
-
-                <!-- Service 6 -->
                 <div class="service-card bg-gray-50 rounded-2xl p-8 cursor-pointer reveal">
-                    <div class="icon-box mb-6 text-[#1e3a5f] text-2xl">
-                        <i class="fas fa-headset"></i>
-                    </div>
+                    <div class="icon-box mb-6 text-[#1e3a5f] text-2xl"><i class="fas fa-headset"></i></div>
                     <h3 class="text-xl font-bold text-[#1e3a5f] mb-3">7/24 Teknik Destek</h3>
                     <p class="text-gray-600 text-sm leading-relaxed">Kurulum sonrası bakım, onarım, yedek parça ve uzaktan destek hizmetleri.</p>
-                    <div class="mt-6 flex items-center gap-2 text-[#1e3a5f] font-semibold text-sm group">
-                        <span>Detaylar</span>
-                        <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
-                    </div>
                 </div>
             </div>
 
-            <!-- Global Shipping Highlight -->
             <div class="mt-16 bg-gradient-to-r from-[#1e3a5f] to-[#2c5282] rounded-3xl p-8 lg:p-12 text-white relative overflow-hidden reveal">
                 <div class="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2"></div>
                 <div class="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
                     <div class="flex items-center gap-6">
-                        <div class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center text-3xl">
-                            <i class="fas fa-plane"></i>
-                        </div>
+                        <div class="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center text-3xl"><i class="fas fa-plane"></i></div>
                         <div>
                             <h3 class="text-2xl font-bold mb-2">Dünya Çapında Teslimat</h3>
-                            <p class="text-white/80">50'den fazla ülkeye güvenli ve hızlı lojistik çözümleri. Gümrük işlemleri ve paketlemeyle birlikte kapıdan kapıya teslimat.</p>
+                            <p class="text-white/80">50'den fazla ülkeye güvenli ve hızlı lojistik çözümleri.</p>
                         </div>
                     </div>
-                    <a href="#iletisim" class="bg-white text-[#1e3a5f] px-8 py-4 rounded-full font-bold hover:bg-gray-100 transition whitespace-nowrap">
-                        Uluslararası Teklif Al
-                    </a>
+                    <a href="#iletisim" class="bg-white text-[#1e3a5f] px-8 py-4 rounded-full font-bold hover:bg-gray-100 transition whitespace-nowrap">Uluslararası Teklif Al</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Process Section -->
     <section id="surec" class="py-24 bg-gray-50 relative overflow-hidden">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 reveal">
                 <div class="inline-block px-4 py-1 bg-[#c9a962]/10 text-[#c9a962] rounded-full text-sm font-bold mb-4">SÜRECİMİZ</div>
                 <h2 class="font-display text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-4">Nasıl Çalışıyoruz?</h2>
-                <p class="text-gray-600">Restoranınızı hayalden gerçeğe dört adımda ulaştırıyoruz.</p>
             </div>
-
             <div class="relative">
                 <div class="step-line hidden md:block"></div>
-
-                <!-- Step 1 -->
                 <div class="flex flex-col md:flex-row items-center gap-8 mb-16 reveal">
                     <div class="md:w-1/2 md:text-right">
-                        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-                            <div class="w-12 h-12 bg-[#c9a962] rounded-xl flex items-center justify-center text-white text-xl mb-4 md:ml-auto">
-                                <i class="fas fa-search-location"></i>
-                            </div>
+                        <div class="bg-white rounded-2xl p-8 shadow-lg">
+                            <div class="w-12 h-12 bg-[#c9a962] rounded-xl flex items-center justify-center text-white text-xl mb-4 md:ml-auto"><i class="fas fa-search-location"></i></div>
                             <h3 class="text-xl font-bold text-[#1e3a5f] mb-2">1. Ücretsiz Keşif</h3>
-                            <p class="text-gray-600">Mekanınızı yerinde inceliyoruz. İhtiyaçlarınızı analiz ediyor, ölçümler yapıyor ve ilk fikirleri paylaşıyoruz. Bu aşama tamamen ücretsizdir.</p>
+                            <p class="text-gray-600">Mekanınızı yerinde inceliyoruz. İhtiyaçlarınızı analiz ediyoruz. Bu aşama tamamen ücretsizdir.</p>
                         </div>
                     </div>
                     <div class="step-dot hidden md:block"></div>
                     <div class="md:w-1/2"></div>
                 </div>
-
-                <!-- Step 2 -->
                 <div class="flex flex-col md:flex-row items-center gap-8 mb-16 reveal">
                     <div class="md:w-1/2"></div>
                     <div class="step-dot hidden md:block"></div>
                     <div class="md:w-1/2">
-                        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-                            <div class="w-12 h-12 bg-[#1e3a5f] rounded-xl flex items-center justify-center text-white text-xl mb-4">
-                                <i class="fas fa-pencil-ruler"></i>
-                            </div>
+                        <div class="bg-white rounded-2xl p-8 shadow-lg">
+                            <div class="w-12 h-12 bg-[#1e3a5f] rounded-xl flex items-center justify-center text-white text-xl mb-4"><i class="fas fa-pencil-ruler"></i></div>
                             <h3 class="text-xl font-bold text-[#1e3a5f] mb-2">2. Planlama & Tasarım</h3>
-                            <p class="text-gray-600">3D modelleme, mutfak düzeni, ergonomi planlaması ve maliyet analizi. Mimarlarımız ve mühendislerimiz detaylı projeyi hazırlar.</p>
+                            <p class="text-gray-600">3D modelleme, mutfak düzeni, ergonomi planlaması ve maliyet analizi.</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Step 3 -->
                 <div class="flex flex-col md:flex-row items-center gap-8 mb-16 reveal">
                     <div class="md:w-1/2 md:text-right">
-                        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-                            <div class="w-12 h-12 bg-[#c9a962] rounded-xl flex items-center justify-center text-white text-xl mb-4 md:ml-auto">
-                                <i class="fas fa-industry"></i>
-                            </div>
+                        <div class="bg-white rounded-2xl p-8 shadow-lg">
+                            <div class="w-12 h-12 bg-[#c9a962] rounded-xl flex items-center justify-center text-white text-xl mb-4 md:ml-auto"><i class="fas fa-industry"></i></div>
                             <h3 class="text-xl font-bold text-[#1e3a5f] mb-2">3. Üretim & Uygulama</h3>
-                            <p class="text-gray-600">Özel üretim ekipmanlar, tadilat işleri, elektrik ve su tesisatı, tabela montajı. Tüm süreçleri koordine edip takip ediyoruz.</p>
+                            <p class="text-gray-600">Özel üretim ekipmanlar, tadilat işleri, tabela montajı.</p>
                         </div>
                     </div>
                     <div class="step-dot hidden md:block"></div>
                     <div class="md:w-1/2"></div>
                 </div>
-
-                <!-- Step 4 -->
                 <div class="flex flex-col md:flex-row items-center gap-8 reveal">
                     <div class="md:w-1/2"></div>
                     <div class="step-dot hidden md:block"></div>
                     <div class="md:w-1/2">
-                        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
-                            <div class="w-12 h-12 bg-[#1e3a5f] rounded-xl flex items-center justify-center text-white text-xl mb-4">
-                                <i class="fas fa-rocket"></i>
-                            </div>
+                        <div class="bg-white rounded-2xl p-8 shadow-lg">
+                            <div class="w-12 h-12 bg-[#1e3a5f] rounded-xl flex items-center justify-center text-white text-xl mb-4"><i class="fas fa-rocket"></i></div>
                             <h3 class="text-xl font-bold text-[#1e3a5f] mb-2">4. Teslimat & Destek</h3>
-                            <p class="text-gray-600">Ekipman testleri, personel eğitimi, garanti belgeleri ve 7/24 teknik destek hattı. Yurt dışı teslimatlarımızda lojistik desteği sağlıyoruz.</p>
+                            <p class="text-gray-600">Ekipman testleri, personel eğitimi, 7/24 teknik destek.</p>
                         </div>
                     </div>
                 </div>
@@ -742,168 +634,81 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="hakkimizda" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-16 items-center">
                 <div class="relative reveal">
                     <div class="img-hover rounded-2xl overflow-hidden shadow-2xl">
-                        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop" alt="Tuncer Design Atölye" class="w-full h-auto object-cover">
+                        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop" alt="Tuncer Design" class="w-full h-auto object-cover">
                     </div>
                     <div class="absolute -bottom-8 -right-8 bg-[#1e3a5f] text-white p-6 rounded-2xl shadow-xl hidden lg:block">
                         <div class="text-4xl font-bold mb-1">15+</div>
                         <div class="text-sm opacity-80">Yıllık Sektör<br>Deneyimi</div>
                     </div>
                 </div>
-                
                 <div class="space-y-6 reveal">
                     <div class="inline-block px-4 py-1 bg-[#c9a962]/10 text-[#c9a962] rounded-full text-sm font-bold">HAKKIMIZDA</div>
-                    
-                    <!-- Logo with light background to preserve original colors -->
                     <div class="logo-container-dark inline-block mb-4">
-                        <img src="/mnt/agents/upload/Tuncerdesing.png" alt="Tuncer Design" class="h-16 w-auto">
+                        <img src="https://atakanakbala-del.github.io/tuncerdesign/Tuncerdesing.png" alt="Tuncer Design" class="h-16 w-auto">
                     </div>
-                    
                     <h2 class="font-display text-4xl font-bold text-[#1e3a5f]">Tuncer Design Kimdir?</h2>
-                    <p class="text-gray-600 leading-relaxed">
-                        2009'dan bu yana endüstriyel mutfak sektöründe faaliyet gösteren Tuncer Design, müşterilerine tek çatı altında kapsamlı çözümler sunan öncü bir firmadır.
-                    </p>
-                    <p class="text-gray-600 leading-relaxed">
-                        Sadece ekipman satmıyor, işletmenizin kurulumundan işletmeye alınmasına kadar her adımda yanınızda oluyoruz. Özel üretim kapasitemiz, deneyimli teknik ekibimiz ve global lojistik ağımızla dünya standartlarında hizmet üretiyoruz.
-                    </p>
-                    
-                    <div class="grid grid-cols-2 gap-6 pt-4">
-                        <div class="flex items-start gap-3">
-                            <div class="w-10 h-10 bg-[#c9a962]/10 rounded-lg flex items-center justify-center text-[#c9a962] flex-shrink-0">
-                                <i class="fas fa-award"></i>
-                            </div>
-                            <div>
-                                <div class="font-bold text-[#1e3a5f]">Kalite Sertifikaları</div>
-                                <div class="text-sm text-gray-500">ISO 9001, CE Belgeli</div>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-3">
-                            <div class="w-10 h-10 bg-[#c9a962]/10 rounded-lg flex items-center justify-center text-[#c9a962] flex-shrink-0">
-                                <i class="fas fa-shield-alt"></i>
-                            </div>
-                            <div>
-                                <div class="font-bold text-[#1e3a5f]">2 Yıl Garanti</div>
-                                <div class="text-sm text-gray-500">Tüm Ekipmanlarda</div>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-3">
-                            <div class="w-10 h-10 bg-[#c9a962]/10 rounded-lg flex items-center justify-center text-[#c9a962] flex-shrink-0">
-                                <i class="fas fa-clock"></i>
-                            </div>
-                            <div>
-                                <div class="font-bold text-[#1e3a5f]">Hızlı Teslimat</div>
-                                <div class="text-sm text-gray-500">Stoklu Ürünlerde 48 Saat</div>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-3">
-                            <div class="w-10 h-10 bg-[#c9a962]/10 rounded-lg flex items-center justify-center text-[#c9a962] flex-shrink-0">
-                                <i class="fas fa-hand-holding-usd"></i>
-                            </div>
-                            <div>
-                                <div class="font-bold text-[#1e3a5f]">Uygun Fiyat</div>
-                                <div class="text-sm text-gray-500">Doğrudan Üretici</div>
-                            </div>
-                        </div>
-                    </div>
+                    <p class="text-gray-600 leading-relaxed">2009'dan bu yana endüstriyel mutfak sektöründe faaliyet gösteren Tuncer Design, tek çatı altında kapsamlı çözümler sunar.</p>
+                    <p class="text-gray-600 leading-relaxed">Özel üretim kapasitemiz, deneyimli teknik ekibimiz ve global lojistik ağımızla dünya standartlarında hizmet üretiyoruz.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- CTA Section -->
     <section class="parallax py-24 relative" style="background-image: linear-gradient(rgba(30, 58, 95, 0.9), rgba(30, 58, 95, 0.9)), url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920&h=600&fit=crop');">
         <div class="max-w-4xl mx-auto px-4 text-center relative z-10 reveal">
             <h2 class="font-display text-4xl lg:text-5xl font-bold text-white mb-6">Hayalinizdeki İşletmeyi Kurmaya Hazır mısınız?</h2>
-            <p class="text-white/80 text-lg mb-8 max-w-2xl mx-auto">Ücretsiz keşif hizmetimizle başlayın. Uzman ekibimiz mekanınızı ziyaret edip, en uygun çözümleri sunsun.</p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="tel:+905369852926" class="bg-[#c9a962] text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-[#b8984f] transition inline-flex items-center justify-center gap-2">
-                    <i class="fas fa-phone"></i>
-                    Hemen Ara: 0536 985 29 26
+                    <i class="fas fa-phone"></i> Hemen Ara: 0536 985 29 26
                 </a>
                 <a href="#iletisim" class="bg-white/10 backdrop-blur text-white border-2 border-white/30 px-8 py-4 rounded-full font-bold text-lg hover:bg-white/20 transition inline-flex items-center justify-center gap-2">
-                    <i class="fas fa-envelope"></i>
-                    Form Doldur
+                    <i class="fas fa-envelope"></i> Form Doldur
                 </a>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
     <section id="iletisim" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 reveal">
                 <div class="inline-block px-4 py-1 bg-[#c9a962]/10 text-[#c9a962] rounded-full text-sm font-bold mb-4">İLETİŞİM</div>
                 <h2 class="font-display text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-4">Bize Ulaşın</h2>
-                <p class="text-gray-600">Ücretsiz keşif ve fiyat teklifi için form doldurun veya doğrudan arayın.</p>
             </div>
-
             <div class="grid lg:grid-cols-3 gap-8">
-                <!-- Contact Info -->
                 <div class="lg:col-span-1 space-y-6 reveal">
                     <div class="bg-gray-50 rounded-2xl p-6 flex items-start gap-4">
-                        <div class="w-12 h-12 bg-[#1e3a5f] rounded-xl flex items-center justify-center text-white flex-shrink-0">
-                            <i class="fas fa-phone-alt"></i>
-                        </div>
+                        <div class="w-12 h-12 bg-[#1e3a5f] rounded-xl flex items-center justify-center text-white flex-shrink-0"><i class="fas fa-phone-alt"></i></div>
                         <div>
                             <div class="font-bold text-[#1e3a5f] mb-1">Telefon</div>
                             <a href="tel:+905369852926" class="text-gray-600 hover:text-[#1e3a5f] transition">0536 985 29 26</a>
-                            <div class="text-xs text-green-600 mt-1"><i class="fas fa-circle text-[8px] mr-1"></i>Şu an müsait</div>
                         </div>
                     </div>
-
                     <div class="bg-gray-50 rounded-2xl p-6 flex items-start gap-4">
-                        <div class="w-12 h-12 bg-[#1e3a5f] rounded-xl flex items-center justify-center text-white flex-shrink-0">
-                            <i class="fas fa-envelope"></i>
-                        </div>
+                        <div class="w-12 h-12 bg-[#1e3a5f] rounded-xl flex items-center justify-center text-white flex-shrink-0"><i class="fas fa-envelope"></i></div>
                         <div>
                             <div class="font-bold text-[#1e3a5f] mb-1">E-posta</div>
                             <a href="mailto:info@tuncerdesign.com" class="text-gray-600 hover:text-[#1e3a5f] transition">info@tuncerdesign.com</a>
                         </div>
                     </div>
-
                     <div class="bg-gray-50 rounded-2xl p-6 flex items-start gap-4">
-                        <div class="w-12 h-12 bg-[#1e3a5f] rounded-xl flex items-center justify-center text-white flex-shrink-0">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
+                        <div class="w-12 h-12 bg-[#1e3a5f] rounded-xl flex items-center justify-center text-white flex-shrink-0"><i class="fas fa-map-marker-alt"></i></div>
                         <div>
                             <div class="font-bold text-[#1e3a5f] mb-1">Adres</div>
                             <p class="text-gray-600 text-sm">Sanayi Bölgesi, Atölye No: 15<br>İstanbul / Türkiye</p>
                         </div>
                     </div>
-
-                    <div class="bg-gray-50 rounded-2xl p-6 flex items-start gap-4">
-                        <div class="w-12 h-12 bg-[#1e3a5f] rounded-xl flex items-center justify-center text-white flex-shrink-0">
-                            <i class="fas fa-clock"></i>
-                        </div>
-                        <div>
-                            <div class="font-bold text-[#1e3a5f] mb-1">Çalışma Saatleri</div>
-                            <p class="text-gray-600 text-sm">Pzt - Cmt: 08:00 - 18:00<br>Pazar: Kapalı</p>
-                        </div>
-                    </div>
-
-                    <!-- Social -->
                     <div class="flex gap-3">
-                        <a href="#" class="w-10 h-10 bg-[#1e3a5f] rounded-full flex items-center justify-center text-white hover:bg-[#c9a962] transition">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a href="#" class="w-10 h-10 bg-[#1e3a5f] rounded-full flex items-center justify-center text-white hover:bg-[#c9a962] transition">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a href="#" class="w-10 h-10 bg-[#1e3a5f] rounded-full flex items-center justify-center text-white hover:bg-[#c9a962] transition">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a href="#" class="w-10 h-10 bg-[#1e3a5f] rounded-full flex items-center justify-center text-white hover:bg-[#c9a962] transition">
-                            <i class="fab fa-whatsapp"></i>
-                        </a>
+                        <a href="#" class="w-10 h-10 bg-[#1e3a5f] rounded-full flex items-center justify-center text-white hover:bg-[#c9a962] transition"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="w-10 h-10 bg-[#1e3a5f] rounded-full flex items-center justify-center text-white hover:bg-[#c9a962] transition"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="w-10 h-10 bg-[#1e3a5f] rounded-full flex items-center justify-center text-white hover:bg-[#c9a962] transition"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="w-10 h-10 bg-[#1e3a5f] rounded-full flex items-center justify-center text-white hover:bg-[#c9a962] transition"><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
-
-                <!-- Contact Form -->
                 <div class="lg:col-span-2 reveal">
                     <form id="contactForm" class="bg-gray-50 rounded-2xl p-8 shadow-lg">
                         <div class="grid md:grid-cols-2 gap-6 mb-6">
@@ -916,7 +721,6 @@
                                 <input type="tel" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#1e3a5f] focus:ring-2 focus:ring-[#1e3a5f]/20 outline-none transition bg-white" placeholder="05XX XXX XX XX">
                             </div>
                         </div>
-                        
                         <div class="grid md:grid-cols-2 gap-6 mb-6">
                             <div>
                                 <label class="block text-sm font-medium text-gray-700 mb-2">E-posta</label>
@@ -935,20 +739,16 @@
                                 </select>
                             </div>
                         </div>
-
                         <div class="mb-6">
                             <label class="block text-sm font-medium text-gray-700 mb-2">Mesajınız</label>
                             <textarea rows="4" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#1e3a5f] focus:ring-2 focus:ring-[#1e3a5f]/20 outline-none transition bg-white resize-none" placeholder="Projeniz hakkında kısa bilgi verin..."></textarea>
                         </div>
-
                         <div class="flex items-center gap-3 mb-6">
                             <input type="checkbox" id="consent" required class="w-5 h-5 text-[#1e3a5f] rounded border-gray-300 focus:ring-[#1e3a5f]">
-                            <label for="consent" class="text-sm text-gray-600">Ücretsiz keşif hizmeti almak istiyorum ve iletişim bilgilerimin kullanılmasına izin veriyorum.</label>
+                            <label for="consent" class="text-sm text-gray-600">Ücretsiz keşif hizmeti almak istiyorum.</label>
                         </div>
-
                         <button type="submit" class="btn-primary w-full justify-center text-lg">
-                            <i class="fas fa-paper-plane"></i>
-                            Gönder
+                            <i class="fas fa-paper-plane"></i> Gönder
                         </button>
                     </form>
                 </div>
@@ -956,20 +756,15 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="bg-[#1e3a5f] text-white pt-16 pb-8">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-4 gap-8 mb-12">
                 <div class="md:col-span-1">
-                    <!-- Footer Logo - Original Colors Preserved with Light Background -->
                     <div class="bg-white rounded-xl p-4 inline-block mb-4">
-                        <img src="/mnt/agents/upload/Tuncerdesing.png" alt="Tuncer Design" class="footer-logo">
+                        <img src="https://atakanakbala-del.github.io/tuncerdesign/Tuncerdesing.png" alt="Tuncer Design" class="footer-logo">
                     </div>
-                    <p class="text-white/60 text-sm leading-relaxed mb-4">
-                        Endüstriyel mutfak ve restoran çözümlerinde 15+ yıllık deneyim. Özel üretim, kurulum, tadilat ve global lojistik.
-                    </p>
+                    <p class="text-white/60 text-sm leading-relaxed">Endüstriyel mutfak ve restoran çözümlerinde 15+ yıllık deneyim.</p>
                 </div>
-                
                 <div>
                     <h4 class="font-bold mb-4 text-[#c9a962]">Hızlı Linkler</h4>
                     <ul class="space-y-2 text-sm text-white/60">
@@ -979,7 +774,6 @@
                         <li><a href="#hakkimizda" class="hover:text-white transition">Hakkımızda</a></li>
                     </ul>
                 </div>
-                
                 <div>
                     <h4 class="font-bold mb-4 text-[#c9a962]">Hizmetler</h4>
                     <ul class="space-y-2 text-sm text-white/60">
@@ -989,7 +783,6 @@
                         <li><a href="#" class="hover:text-white transition">Yurt Dışı Teslimat</a></li>
                     </ul>
                 </div>
-                
                 <div>
                     <h4 class="font-bold mb-4 text-[#c9a962]">İletişim</h4>
                     <ul class="space-y-2 text-sm text-white/60">
@@ -999,63 +792,37 @@
                     </ul>
                 </div>
             </div>
-            
             <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                 <div class="text-sm text-white/40"> 2024 Tuncer Design. Tüm hakları saklıdır.</div>
-                <div class="flex gap-4 text-sm text-white/40">
-                    <a href="#" class="hover:text-white transition">Gizlilik Politikası</a>
-                    <a href="#" class="hover:text-white transition">Kullanım Koşulları</a>
-                </div>
             </div>
         </div>
     </footer>
 
-    <!-- WhatsApp Float -->
     <a href="https://wa.me/905369852926" target="_blank" class="fixed bottom-6 right-6 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white text-2xl shadow-lg hover:bg-green-600 transition z-50 animate-bounce">
         <i class="fab fa-whatsapp"></i>
     </a>
 
     <script>
-        // Loader
         window.addEventListener('load', () => {
             setTimeout(() => {
                 document.getElementById('loader').classList.add('hidden');
             }, 2000);
         });
 
-        // GSAP Animations
         gsap.registerPlugin(ScrollTrigger);
-
-        // Reveal animations
         gsap.utils.toArray('.reveal').forEach(element => {
             gsap.fromTo(element, 
                 { opacity: 0, y: 30 },
-                {
-                    opacity: 1,
-                    y: 0,
-                    duration: 0.8,
-                    ease: 'power3.out',
-                    scrollTrigger: {
-                        trigger: element,
-                        start: 'top 85%',
-                        toggleActions: 'play none none none'
-                    }
-                }
+                { opacity: 1, y: 0, duration: 0.8, ease: 'power3.out', scrollTrigger: { trigger: element, start: 'top 85%' } }
             );
         });
 
-        // Counter Animation
         const counters = document.querySelectorAll('.counter');
         counters.forEach(counter => {
             const target = parseInt(counter.getAttribute('data-target'));
             gsap.to(counter, {
-                innerHTML: target,
-                duration: 2,
-                snap: { innerHTML: 1 },
-                scrollTrigger: {
-                    trigger: counter,
-                    start: 'top 80%',
-                },
+                innerHTML: target, duration: 2, snap: { innerHTML: 1 },
+                scrollTrigger: { trigger: counter, start: 'top 80%' },
                 onUpdate: function() {
                     counter.innerHTML = Math.ceil(this.targets()[0].innerHTML);
                     if (target === 100) counter.innerHTML += '%';
@@ -1065,66 +832,39 @@
             });
         });
 
-        // Navbar scroll effect
-        let lastScroll = 0;
         window.addEventListener('scroll', () => {
             const navbar = document.getElementById('navbar');
-            const currentScroll = window.pageYOffset;
-            
-            if (currentScroll > 100) {
-                navbar.classList.add('shadow-lg');
-            } else {
-                navbar.classList.remove('shadow-lg');
-            }
-            lastScroll = currentScroll;
+            navbar.classList.toggle('shadow-lg', window.pageYOffset > 100);
         });
 
-        // Mobile Menu
         const menuBtn = document.getElementById('menuBtn');
         const closeMenu = document.getElementById('closeMenu');
         const mobileMenu = document.getElementById('mobileMenu');
-        const mobileLinks = document.querySelectorAll('.mobile-link');
-
         menuBtn.addEventListener('click', () => mobileMenu.classList.add('active'));
         closeMenu.addEventListener('click', () => mobileMenu.classList.remove('active'));
-        mobileLinks.forEach(link => {
+        document.querySelectorAll('.mobile-link').forEach(link => {
             link.addEventListener('click', () => mobileMenu.classList.remove('active'));
         });
 
-        // Smooth Scroll
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
                 const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                }
+                if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
             });
         });
 
-        // Form Submit
         document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
-            const toast = document.getElementById('toast');
-            toast.classList.add('show');
+            document.getElementById('toast').classList.add('show');
             this.reset();
-            
-            setTimeout(() => {
-                toast.classList.remove('show');
-            }, 4000);
+            setTimeout(() => document.getElementById('toast').classList.remove('show'), 4000);
         });
 
-        // Parallax effect for hero shapes
         document.addEventListener('mousemove', (e) => {
-            const shapes = document.querySelectorAll('.hero-shape');
-            const x = e.clientX / window.innerWidth;
-            const y = e.clientY / window.innerHeight;
-            
-            shapes.forEach((shape, index) => {
+            document.querySelectorAll('.hero-shape').forEach((shape, index) => {
                 const speed = (index + 1) * 20;
-                const xOffset = (window.innerWidth / 2 - e.clientX) / speed;
-                const yOffset = (window.innerHeight / 2 - e.clientY) / speed;
-                shape.style.transform = `translate(${xOffset}px, ${yOffset}px)`;
+                shape.style.transform = `translate(${(window.innerWidth/2 - e.clientX)/speed}px, ${(window.innerHeight/2 - e.clientY)/speed}px)`;
             });
         });
     </script>
