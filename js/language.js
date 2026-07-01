@@ -1,42 +1,64 @@
 let translations = {};
 
 async function loadLanguage(lang) {
-    const response = await fetch(`lang/${lang}.json`);
-    translations = await response.json();
 
-    document.querySelectorAll("[data-lang]").forEach(element => {
-        const key = element.getAttribute("data-lang");
+    try {
 
-        if (translations[key]) {
-            element.innerHTML = translations[key];
+        const response = await fetch(`lang/${lang}.json`);
+        translations = await response.json();
+
+        document.querySelectorAll("[data-i18n]").forEach(el => {
+
+            const key = el.dataset.i18n;
+
+            if (translations[key]) {
+                el.innerHTML = translations[key];
+            }
+
+        });
+
+        document.documentElement.lang = lang;
+        document.body.dir = lang === "ar" ? "rtl" : "ltr";
+
+        localStorage.setItem("language", lang);
+
+        const names = {
+            tr: "Türkçe",
+            en: "English",
+            fr: "Français",
+            ar: "العربية"
+        };
+
+        const current = document.getElementById("currentLang");
+
+        if(current){
+            current.textContent = names[lang];
         }
-    });
 
-    document.documentElement.lang = lang;
+        document.getElementById("languageMenu")?.classList.add("hidden");
 
-    if (lang === "ar") {
-        document.body.dir = "rtl";
-    } else {
-        document.body.dir = "ltr";
+    } catch(err){
+
+        console.error(err);
+
     }
 
-    localStorage.setItem("language", lang);
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", ()=>{
 
     const saved = localStorage.getItem("language") || "tr";
 
     loadLanguage(saved);
 
-    const selector = document.getElementById("languageSelector");
+    document.querySelectorAll(".lang-btn").forEach(btn=>{
 
-    if(selector){
-        selector.value = saved;
+        btn.addEventListener("click", ()=>{
 
-        selector.addEventListener("change", function(){
-            loadLanguage(this.value);
+            loadLanguage(btn.dataset.lang);
+
         });
-    }
+
+    });
 
 });

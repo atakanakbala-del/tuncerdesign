@@ -1,11 +1,7 @@
 {
-    "menu_home":"Accueil",
-    "menu_about":"À propos",
-    "menu_services":"Services",
-    "menu_projects":"Projets",
-    "menu_contact":"Contact",
-
-    "hero_title":"Solutions de Cuisine Industrielle et de Restaurant",
-    "hero_text":"Projets de cuisines professionnelles, fabrication inox et solutions clé en main.",
-    "hero_button":"Demander un devis"
+  "nav.home": "Accueil",
+  "nav.services": "Services",
+  "nav.process": "Processus",
+  "nav.about": "À propos",
+  "nav.contact": "Contact"
 }
