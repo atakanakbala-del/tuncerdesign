@@ -67,17 +67,54 @@
                     </div>
 
                     <!-- Desktop Menu -->
-                    <div class="hidden md:flex items-center gap-8">
-                        <a href="#anasayfa" class="nav-link text-gray-700 hover:text-[#1e3a5f] font-medium text-sm">Anasayfa</a>
-                        <a href="#hizmetler" class="nav-link text-gray-700 hover:text-[#1e3a5f] font-medium text-sm">Hizmetler</a>
-                        <a href="#surec" class="nav-link text-gray-700 hover:text-[#1e3a5f] font-medium text-sm">Süreç</a>
-                        <a href="#hakkimizda" class="nav-link text-gray-700 hover:text-[#1e3a5f] font-medium text-sm">Hakkımızda</a>
-                        <a href="#iletisim" class="nav-link text-gray-700 hover:text-[#1e3a5f] font-medium text-sm">İletişim</a>
-                        <a href="tel:+905369852926" class="btn-primary text-sm py-2 px-6">
-                            <i class="fas fa-phone"></i>
-                            0536 985 29 26
-                        </a>
-                    </div>
+<div class="hidden md:flex items-center gap-8">
+    <a href="#anasayfa" class="nav-link text-gray-700 hover:text-[#1e3a5f] font-medium text-sm" data-i18n="nav.home">Anasayfa</a>
+
+    <a href="#hizmetler" class="nav-link text-gray-700 hover:text-[#1e3a5f] font-medium text-sm" data-i18n="nav.services">Hizmetler</a>
+
+    <a href="#surec" class="nav-link text-gray-700 hover:text-[#1e3a5f] font-medium text-sm" data-i18n="nav.process">Süreç</a>
+
+    <a href="#hakkimizda" class="nav-link text-gray-700 hover:text-[#1e3a5f] font-medium text-sm" data-i18n="nav.about">Hakkımızda</a>
+
+    <a href="#iletisim" class="nav-link text-gray-700 hover:text-[#1e3a5f] font-medium text-sm" data-i18n="nav.contact">İletişim</a>
+    
+    <div class="flex items-center gap-4">
+
+    <div class="relative">
+
+        <button id="languageButton"
+            class="flex items-center gap-2 border border-gray-200 rounded-full px-4 py-2 text-sm hover:bg-gray-50 transition">
+
+            <i class="fas fa-globe text-[#1e3a5f]"></i>
+
+            <span id="currentLang">Türkçe</span>
+
+            <i class="fas fa-chevron-down text-xs"></i>
+
+        </button>
+
+        <div id="languageMenu"
+            class="hidden absolute right-0 mt-2 w-48 bg-white rounded-xl shadow-xl border overflow-hidden">
+
+            <button class="lang-btn w-full text-left px-4 py-3 hover:bg-gray-100" data-lang="tr">Türkçe</button>
+
+            <button class="lang-btn w-full text-left px-4 py-3 hover:bg-gray-100" data-lang="en">English</button>
+
+            <button class="lang-btn w-full text-left px-4 py-3 hover:bg-gray-100" data-lang="fr">Français</button>
+
+            <button class="lang-btn w-full text-left px-4 py-3 hover:bg-gray-100" data-lang="ar">العربية</button>
+
+        </div>
+
+    </div>
+
+    <a href="tel:+905369852926" class="btn-primary text-sm py-2 px-6">
+        <i class="fas fa-phone"></i>
+        0536 985 29 26
+    </a>
+
+</div>
+</div>
 
                     <!-- Mobile Menu Button -->
                     <button class="md:hidden text-[#1e3a5f] text-2xl" id="menuBtn">
@@ -691,6 +728,6 @@
 
 
     <script src="js/language.js"></script>
-<script src="js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
