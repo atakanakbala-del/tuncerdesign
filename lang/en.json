@@ -27,6 +27,7 @@
   "hero.global": "Global",
   "hero.logistics": "Logistics Network",
 
+  "stats.title": "Our Statistics",
   "stats.projects": "Completed Projects",
   "stats.countries": "Countries Delivered",
   "stats.experience": "Years of Experience",
@@ -35,6 +36,28 @@
   "services.badge": "OUR SERVICES",
   "services.title": "Your Complete Solution Partner",
   "services.description": "We are with you at every stage of restaurant setup.",
+
+  "services.s1title": "Industrial Kitchen",
+  "services.s1desc": "Stainless steel kitchen equipment, stoves, ovens, hoods and custom manufacturing solutions.",
+
+  "services.s2.title": "Architectural Support",
+  "services.s2.text": "Interior design, kitchen planning, ergonomic layout and aesthetic solutions.",
+
+  "services.s3.title": "Custom Manufacturing",
+  "services.s3.text": "Custom-sized and specially designed kitchen equipment manufacturing.",
+
+  "services.s4.title": "Renovation & Construction",
+  "services.s4.text": "Complete restaurant renovation, electrical, plumbing, flooring and wall works.",
+
+  "services.s5.title": "Signage & Visual Design",
+  "services.s5.text": "Illuminated signs, channel letters, digital printing, menu boards and corporate identity.",
+
+  "services.s6.title": "24/7 Technical Support",
+  "services.s6.text": "Maintenance, repair, spare parts and remote support after installation.",
+
+  "shipping.title": "Worldwide Delivery",
+  "shipping.description": "Safe and fast logistics solutions to more than 50 countries. Door-to-door delivery including customs clearance and professional packaging.",
+  "shipping.button": "Get International Quote",
 
   "footer.quickLinks": "Quick Links",
   "footer.home": "Home",
@@ -52,7 +75,7 @@
 
   "common.details": "Details",
 
-  "copyright": "© 2024 Tuncerdesing. All rights reserved.",
+  "copyright": "© 2024 Tuncerdesign. All rights reserved.",
 
   "marquee": "INDUSTRIAL KITCHENS • CUSTOM MANUFACTURING • INSTALLATION • RENOVATION • ARCHITECTURE • TECHNICAL SUPPORT • INTERNATIONAL DELIVERY • FREE DISCOVERY • PLANNING • INDUSTRIAL KITCHENS • CUSTOM MANUFACTURING • INSTALLATION • RENOVATION • ARCHITECTURE • TECHNICAL SUPPORT • INTERNATIONAL DELIVERY • FREE DISCOVERY • PLANNING •"
 }
