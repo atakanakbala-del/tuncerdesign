@@ -1,7 +1,154 @@
 {
   "nav.home": "الرئيسية",
   "nav.services": "الخدمات",
-  "nav.process": "العملية",
+  "nav.process": "آلية العمل",
   "nav.about": "من نحن",
-  "nav.contact": "اتصل بنا"
+  "nav.contact": "اتصل بنا",
+
+  "hero.support": "دعم فني 24/7",
+  "hero.title1": "نقوم بإنشاء",
+  "hero.title2": "مطعمك",
+  "hero.title3": "من البداية إلى النهاية",
+
+  "hero.description": "معدات المطابخ الصناعية، التصنيع حسب الطلب، التركيب، التجديد، الدعم المعماري، والتوصيل إلى جميع أنحاء العالم.",
+  "hero.freePlan": "المعاينة والتخطيط مجانًا",
+  "hero.description2": "لتحويل مشروعك إلى حقيقة.",
+
+  "hero.button1": "احصل على معاينة مجانية",
+  "hero.button2": "خدماتنا",
+
+  "hero.countries": "أكثر من 50 دولة",
+  "hero.delivery": "توصيل",
+
+  "hero.video": "الفيديو التعريفي",
+  "hero.videoTime": "2:45 دقيقة",
+
+  "hero.projects": "مشروع مكتمل",
+  "hero.global": "عالمي",
+  "hero.logistics": "شبكة لوجستية",
+
+  "stats.projects": "مشروع مكتمل",
+  "stats.countries": "دولة تم التوصيل إليها",
+  "stats.experience": "سنة خبرة",
+  "stats.satisfaction": "رضا العملاء %",
+
+  "services.badge": "خدماتنا",
+  "services.title": "شريكك في الحلول المتكاملة",
+  "services.description": "نقف إلى جانبك في جميع مراحل إنشاء وتشغيل مطعمك.",
+
+  "services.s1title": "المطابخ الصناعية",
+  "services.s1desc": "معدات من الفولاذ المقاوم للصدأ، أفران، شفاطات، وأعمال تصنيع حسب الطلب.",
+
+  "services.s2.title": "الدعم المعماري",
+  "services.s2.text": "تصميم داخلي، تخطيط المطابخ، وحلول عملية وجمالية.",
+
+  "services.s3.title": "التصنيع حسب الطلب",
+  "services.s3.text": "إنتاج معدات مطابخ بمقاسات وتصاميم خاصة.",
+
+  "services.s4.title": "التجديد والإنشاء",
+  "services.s4.text": "تجديد المطاعم بالكامل، الكهرباء، السباكة، والأعمال الإنشائية.",
+
+  "services.s5.title": "اللافتات والهوية البصرية",
+  "services.s5.text": "لافتات مضيئة، طباعة رقمية، وهوية بصرية متكاملة.",
+
+  "services.s6.title": "دعم فني 24/7",
+  "services.s6.text": "الصيانة والإصلاح وقطع الغيار والدعم الفني بعد التركيب.",
+
+  "common.details": "التفاصيل",
+
+  "shipping.title": "التوصيل إلى جميع أنحاء العالم",
+  "shipping.description": "حلول لوجستية آمنة وسريعة لأكثر من 50 دولة.",
+  "shipping.button": "احصل على عرض دولي",
+
+  "process.badge": "آلية عملنا",
+  "process.title": "كيف نعمل؟",
+  "process.subtitle": "نحول مشروع مطعمك إلى واقع في أربع خطوات.",
+
+  "process.step1.title": "1. المعاينة المجانية",
+  "process.step1.text": "نقوم بمعاينة الموقع وتحليل احتياجاتك مجانًا.",
+
+  "process.step2.title": "2. التخطيط والتصميم",
+  "process.step2.text": "تصميم ثلاثي الأبعاد، تخطيط المطبخ، وتحليل التكاليف.",
+
+  "process.step3.title": "3. الإنتاج والتنفيذ",
+  "process.step3.text": "تصنيع المعدات، أعمال التجديد، والتركيب الكامل.",
+
+  "process.step4.title": "4. التسليم والدعم",
+  "process.step4.text": "اختبارات التشغيل، الضمان، التدريب، والدعم الفني.",
+
+  "about.badge": "من نحن",
+  "about.title": "من هي Tuncerdesing؟",
+  "about.text1": "منذ عام 2009 نقدم حلولاً متكاملة في قطاع المطابخ الصناعية.",
+  "about.text2": "لا نبيع المعدات فقط، بل نرافق عملاءنا من بداية المشروع وحتى التشغيل الكامل.",
+
+  "about.feature1.title": "شهادات الجودة",
+  "about.feature1.text": "ISO 9001 و CE",
+
+  "about.feature2.title": "ضمان سنتين",
+  "about.feature2.text": "على جميع المعدات",
+
+  "about.feature3.title": "توصيل سريع",
+  "about.feature3.text": "48 ساعة للمنتجات المتوفرة",
+
+  "about.feature4.title": "أسعار مناسبة",
+  "about.feature4.text": "من المصنع مباشرة",
+
+  "cta.title": "هل أنت مستعد لإنشاء مشروعك؟",
+  "cta.description": "ابدأ الآن مع خدمة المعاينة المجانية.",
+  "cta.call": "اتصل الآن:",
+  "cta.form": "املأ النموذج",
+
+  "contact.badge": "اتصل بنا",
+  "contact.title": "تواصل معنا",
+  "contact.description": "املأ النموذج للحصول على معاينة وعرض سعر مجاني.",
+
+  "contact.phone": "الهاتف",
+  "contact.available": "متاح الآن",
+  "contact.email": "البريد الإلكتروني",
+  "contact.address": "العنوان",
+  "contact.addressText": "المنطقة الصناعية، الورشة رقم 15<br>إسطنبول / تركيا",
+  "contact.hours": "ساعات العمل",
+  "contact.hoursText": "الاثنين - السبت: 08:00 - 18:00<br>الأحد: مغلق",
+
+  "form.name": "الاسم الكامل",
+  "form.phone": "الهاتف",
+  "form.email": "البريد الإلكتروني",
+  "form.service": "نوع الخدمة",
+  "form.message": "رسالتك",
+
+  "form.namePlaceholder": "اكتب اسمك الكامل",
+  "form.phonePlaceholder": "05XX XXX XX XX",
+  "form.emailPlaceholder": "example@email.com",
+  "form.messagePlaceholder": "اكتب معلومات عن مشروعك...",
+
+  "form.option1": "المطابخ الصناعية",
+  "form.option2": "إنشاء مطعم",
+  "form.option3": "التجديد",
+  "form.option4": "الدعم المعماري",
+  "form.option5": "اللافتات",
+  "form.option6": "الدعم الفني",
+  "form.option7": "أخرى",
+
+  "form.consent": "أوافق على استخدام بيانات الاتصال الخاصة بي للحصول على خدمة المعاينة المجانية.",
+  "form.send": "إرسال",
+
+  "footer.quickLinks": "روابط سريعة",
+  "footer.home": "الرئيسية",
+  "footer.services": "الخدمات",
+  "footer.process": "آلية العمل",
+  "footer.about": "من نحن",
+
+  "footer.servicesTitle": "الخدمات",
+  "footer.service1": "المطابخ الصناعية",
+  "footer.service2": "التصنيع حسب الطلب",
+  "footer.service3": "الهندسة المعمارية",
+  "footer.service4": "التوصيل الدولي",
+
+  "footer.contactTitle": "اتصل بنا",
+
+  "footer.copyright": "© 2024 Tuncerdesing. جميع الحقوق محفوظة.",
+  "footer.privacy": "سياسة الخصوصية",
+  "footer.terms": "شروط الاستخدام",
+
+  "marquee.text": "المطابخ الصناعية • التصنيع حسب الطلب • التركيب • التجديد • الهندسة المعمارية • الدعم الفني • التوصيل الدولي • معاينة مجانية • التخطيط •"
 }

@@ -47,9 +47,21 @@
     <div class="toast" id="toast">
         <i class="fas fa-check-circle text-xl"></i>
         <div>
-            <div class="font-bold">Başarılı!</div>
-            <div class="text-sm opacity-90">Mesajınız alındı, en kısa sürede dönüş yapacağız.</div>
-        </div>
+            <div
+    class="font-bold"
+    data-i18n="toast.success">
+
+    Başarılı!
+
+</div>
+
+<div
+    class="text-sm opacity-90"
+    data-i18n="toast.message">
+
+    Mesajınız alındı, en kısa sürede dönüş yapacağız.
+
+</div>
     </div>
 
     <!-- Navigation -->
@@ -83,30 +95,30 @@
     <div class="relative">
 
         <button id="languageButton"
-            class="flex items-center gap-2 border border-gray-200 rounded-full px-4 py-2 text-sm hover:bg-gray-50 transition">
+        class="flex items-center gap-2 border border-gray-200 rounded-full px-4 py-2 text-sm hover:bg-gray-50 transition">
 
-            <i class="fas fa-globe text-[#1e3a5f]"></i>
+        <i class="fas fa-globe text-[#1e3a5f]"></i>
 
-            <span id="currentLang">Türkçe</span>
+        <span id="currentLang">Türkçe</span>
 
-            <i class="fas fa-chevron-down text-xs"></i>
+        <i class="fas fa-chevron-down text-xs"></i>
 
-        </button>
+    </button>
 
-        <div id="languageMenu"
-            class="hidden absolute right-0 mt-2 w-48 bg-white rounded-xl shadow-xl border overflow-hidden">
+    <div id="languageMenu"
+        class="hidden absolute right-0 mt-2 w-48 bg-white rounded-xl shadow-xl border overflow-hidden z-50">
 
-            <button class="lang-btn w-full text-left px-4 py-3 hover:bg-gray-100" data-lang="tr">Türkçe</button>
+        <button class="lang-btn w-full text-left px-4 py-3 hover:bg-gray-100" data-lang="tr">🇹🇷 Türkçe</button>
 
-            <button class="lang-btn w-full text-left px-4 py-3 hover:bg-gray-100" data-lang="en">English</button>
+        <button class="lang-btn w-full text-left px-4 py-3 hover:bg-gray-100" data-lang="en">🇬🇧 English</button>
 
-            <button class="lang-btn w-full text-left px-4 py-3 hover:bg-gray-100" data-lang="fr">Français</button>
+        <button class="lang-btn w-full text-left px-4 py-3 hover:bg-gray-100" data-lang="fr">🇫🇷 Français</button>
 
-            <button class="lang-btn w-full text-left px-4 py-3 hover:bg-gray-100" data-lang="ar">العربية</button>
-
-        </div>
+        <button class="lang-btn w-full text-left px-4 py-3 hover:bg-gray-100" data-lang="ar">🇸🇦 العربية</button>
 
     </div>
+
+</div>
 
     <a href="tel:+905369852926" class="btn-primary text-sm py-2 px-6">
         <i class="fas fa-phone"></i>
@@ -134,12 +146,35 @@
             </button>
         </div>
         <div class="flex flex-col gap-6">
-            <a href="#anasayfa" class="text-2xl font-medium text-gray-800 mobile-link">Anasayfa</a>
-            <a href="#hizmetler" class="text-2xl font-medium text-gray-800 mobile-link">Hizmetler</a>
-            <a href="#surec" class="text-2xl font-medium text-gray-800 mobile-link">Süreç</a>
-            <a href="#hakkimizda" class="text-2xl font-medium text-gray-800 mobile-link">Hakkımızda</a>
-            <a href="#iletisim" class="text-2xl font-medium text-gray-800 mobile-link">İletişim</a>
-            <a href="tel:+905369852926" class="btn-primary justify-center mt-4">
+            <a href="#anasayfa"
+   class="text-2xl font-medium text-gray-800 mobile-link"
+   data-i18n="nav.home">
+   Anasayfa
+</a>
+
+<a href="#hizmetler"
+   class="text-2xl font-medium text-gray-800 mobile-link"
+   data-i18n="nav.services">
+   Hizmetler
+</a>
+
+<a href="#surec"
+   class="text-2xl font-medium text-gray-800 mobile-link"
+   data-i18n="nav.process">
+   Süreç
+</a>
+
+<a href="#hakkimizda"
+   class="text-2xl font-medium text-gray-800 mobile-link"
+   data-i18n="nav.about">
+   Hakkımızda
+</a>
+
+<a href="#iletisim"
+   class="text-2xl font-medium text-gray-800 mobile-link"
+   data-i18n="nav.contact">
+   İletişim
+</a>
                 <i class="fas fa-phone"></i>
                 0536 985 29 26
             </a>
@@ -157,30 +192,69 @@
                 <div class="space-y-8">
                     <div class="inline-flex items-center gap-2 bg-white/80 backdrop-blur px-4 py-2 rounded-full shadow-sm border border-gray-100">
                         <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
-                        <span class="text-sm font-medium text-gray-600">7/24 Teknik Destek</span>
+                        <span class="text-sm font-medium text-gray-600"
+      data-i18n="hero.support">
+    7/24 Teknik Destek
+</span>
                     </div>
                     
                     <h1 class="font-display text-5xl lg:text-7xl font-bold text-[#1e3a5f] leading-tight">
-                        Restoranınızı <br>
-                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#c9a962] to-[#1e3a5f]">Baştan Sona</span><br>
-                        Biz Kuruyoruz
-                    </h1>
+
+<span data-i18n="hero.title1">
+Restoranınızı
+</span>
+
+<br>
+
+<span
+class="text-transparent bg-clip-text bg-gradient-to-r from-[#c9a962] to-[#1e3a5f]"
+data-i18n="hero.title2">
+
+Baştan Sona
+
+</span>
+
+<br>
+
+<span data-i18n="hero.title3">
+Biz Kuruyoruz
+</span>
+
+</h1>
                     
                     <p class="text-lg text-gray-600 leading-relaxed max-w-lg">
-                        Endüstriyel mutfak ekipmanları, özel üretim, kurulum, tadilat, mimarlık desteği ve dünya çapında teslimat. 
-                        <strong class="text-[#1e3a5f]">Ücretsiz keşif ve planlama</strong> hizmetimizle hayalinizdeki işletmeyi gerçeğe dönüştürüyoruz.
-                    </p>
+
+    <span data-i18n="hero.description">
+        Endüstriyel mutfak ekipmanları, özel üretim, kurulum, tadilat, mimarlık desteği ve dünya çapında teslimat.
+    </span>
+
+    <strong class="text-[#1e3a5f]" data-i18n="hero.freePlan">
+        Ücretsiz keşif ve planlama
+    </strong>
+
+    <span data-i18n="hero.description2">
+        hizmetimizle hayalinizdeki işletmeyi gerçeğe dönüştürüyoruz.
+    </span>
+
+</p>
                     
                     <div class="flex flex-wrap gap-4">
-                        <a href="#iletisim" class="btn-primary text-lg">
-                            Ücretsiz Keşif Al
-                            <i class="fas fa-arrow-right"></i>
-                        </a>
-                        <a href="#hizmetler" class="btn-outline">
-                            Hizmetlerimiz
-                            <i class="fas fa-chevron-down"></i>
-                        </a>
-                    </div>
+
+    <a href="#iletisim" class="btn-primary text-lg">
+        <span data-i18n="hero.button1">
+            Ücretsiz Keşif Al
+        </span>
+        <i class="fas fa-arrow-right"></i>
+    </a>
+
+    <a href="#hizmetler" class="btn-outline">
+        <span data-i18n="hero.button2">
+            Hizmetlerimiz
+        </span>
+        <i class="fas fa-chevron-down"></i>
+    </a>
+
+</div>
                     
                     <div class="flex items-center gap-6 pt-4">
                         <div class="flex -space-x-3">
@@ -190,8 +264,13 @@
                             <div class="w-10 h-10 rounded-full bg-gray-500 border-2 border-white flex items-center justify-center text-xs font-bold text-white">+50</div>
                         </div>
                         <div class="text-sm text-gray-600">
-                            <strong class="text-[#1e3a5f]">50+ Ülkeye</strong> Teslimat
-                        </div>
+    <strong class="text-[#1e3a5f]" data-i18n="hero.countries">
+        50+ Ülkeye
+    </strong>
+    <span data-i18n="hero.delivery">
+        Teslimat
+    </span>
+</div>
                     </div>
                 </div>
                 
@@ -205,8 +284,17 @@
                                     <i class="fas fa-play"></i>
                                 </div>
                                 <div>
-                                    <div class="font-bold text-[#1e3a5f]">Tanıtım Videomuz</div>
-                                    <div class="text-sm text-gray-600">2:45 dk</div>
+                                    <div
+class="font-bold text-[#1e3a5f]"
+data-i18n="hero.video">
+Tanıtım Videomuz
+</div>
+
+<div
+class="text-sm text-gray-600"
+data-i18n="hero.videoTime">
+2:45 dk
+</div>
                                 </div>
                             </div>
                         </div>
@@ -219,8 +307,15 @@
                                 <i class="fas fa-check-double"></i>
                             </div>
                             <div>
-                                <div class="font-bold text-[#1e3a5f]">500+</div>
-                                <div class="text-xs text-gray-500">Tamamlanan Proje</div>
+                                <div class="font-bold text-[#1e3a5f]">
+500+
+</div>
+
+<div
+class="text-xs text-gray-500"
+data-i18n="hero.projects">
+Tamamlanan Proje
+</div>
                             </div>
                         </div>
                     </div>
@@ -231,8 +326,17 @@
                                 <i class="fas fa-globe"></i>
                             </div>
                             <div>
-                                <div class="font-bold text-[#1e3a5f]">Global</div>
-                                <div class="text-xs text-gray-500">Lojistik Ağı</div>
+                                <div
+class="font-bold text-[#1e3a5f]"
+data-i18n="hero.global">
+Global
+</div>
+
+<div
+class="text-xs text-gray-500"
+data-i18n="hero.logistics">
+Lojistik Ağı
+</div>
                             </div>
                         </div>
                     </div>
@@ -244,9 +348,13 @@
     <!-- Marquee -->
     <div class="bg-[#1e3a5f] py-4 overflow-hidden">
         <div class="marquee-container">
-            <div class="marquee-content text-white/80 text-sm font-medium tracking-widest">
-                ENDÜSTRİYEL MUTFAK • ÖZEL ÜRETİM • KURULUM • TADİLAT • MİMARLIK • TEKNİK DESTEK • YURT DIŞI TESLİMAT • ÜCRETSİZ KEŞİF • PLANLAMA • ENDÜSTRİYEL MUTFAK • ÖZEL ÜRETİM • KURULUM • TADİLAT • MİMARLIK • TEKNİK DESTEK • YURT DIŞI TESLİMAT • ÜCRETSİZ KEŞİF • PLANLAMA •
-            </div>
+            <div
+    class="marquee-content text-white/80 text-sm font-medium tracking-widest"
+    data-i18n="marquee.text">
+
+ENDÜSTRİYEL MUTFAK • ÖZEL ÜRETİM • KURULUM • TADİLAT • MİMARLIK • TEKNİK DESTEK • YURT DIŞI TESLİMAT • ÜCRETSİZ KEŞİF • PLANLAMA • ENDÜSTRİYEL MUTFAK • ÖZEL ÜRETİM • KURULUM • TADİLAT • MİMARLIK • TEKNİK DESTEK • YURT DIŞI TESLİMAT • ÜCRETSİZ KEŞİF • PLANLAMA •
+
+</div>
         </div>
     </div>
 
@@ -255,21 +363,32 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
                 <div class="text-center reveal">
-                    <div class="counter" data-target="500">0</div>
-                    <div class="text-gray-600 mt-2 font-medium">Tamamlanan Proje</div>
-                </div>
-                <div class="text-center reveal">
-                    <div class="counter" data-target="50">0</div>
-                    <div class="text-gray-600 mt-2 font-medium">Ülkeye Teslimat</div>
-                </div>
-                <div class="text-center reveal">
-                    <div class="counter" data-target="15">0</div>
-                    <div class="text-gray-600 mt-2 font-medium">Yıllık Deneyim</div>
-                </div>
-                <div class="text-center reveal">
-                    <div class="counter" data-target="100">0</div>
-                    <div class="text-gray-600 mt-2 font-medium">Müşteri Memnuniyeti %</div>
-                </div>
+    <div class="counter" data-target="500">0</div>
+    <div class="text-gray-600 mt-2 font-medium" data-i18n="stats.projects">
+        Tamamlanan Proje
+    </div>
+</div>
+
+<div class="text-center reveal">
+    <div class="counter" data-target="50">0</div>
+    <div class="text-gray-600 mt-2 font-medium" data-i18n="stats.countries">
+        Ülkeye Teslimat
+    </div>
+</div>
+
+<div class="text-center reveal">
+    <div class="counter" data-target="15">0</div>
+    <div class="text-gray-600 mt-2 font-medium" data-i18n="stats.experience">
+        Yıllık Deneyim
+    </div>
+</div>
+
+<div class="text-center reveal">
+    <div class="counter" data-target="100">0</div>
+    <div class="text-gray-600 mt-2 font-medium" data-i18n="stats.satisfaction">
+        Müşteri Memnuniyeti %
+    </div>
+</div>
             </div>
         </div>
     </section>
@@ -278,10 +397,20 @@
     <section id="hizmetler" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 reveal">
-                <div class="inline-block px-4 py-1 bg-[#c9a962]/10 text-[#c9a962] rounded-full text-sm font-bold mb-4">HİZMETLERİMİZ</div>
-                <h2 class="font-display text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-4">Kapsamlı Çözüm Ortağınız</h2>
-                <p class="text-gray-600 max-w-2xl mx-auto">Restoran ve işletme kurulumunun her aşamasında yanınızdayız. Tüm hizmetleri tek çatı altında sunuyoruz.</p>
-            </div>
+                <div class="inline-block px-4 py-1 bg-[#c9a962]/10 text-[#c9a962] rounded-full text-sm font-bold mb-4"
+data-i18n="services.badge">
+HİZMETLERİMİZ
+</div>
+
+<h2 class="font-display text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-4"
+    data-i18n="services.title">
+    Kapsamlı Çözüm Ortağınız
+</h2>
+
+<p class="text-gray-600 max-w-2xl mx-auto"
+   data-i18n="services.description">
+Restoran ve işletme kurulumunun her aşamasında yanınızdayız. Tüm hizmetleri tek çatı altında sunuyoruz.
+</p>
 
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Service 1 -->
@@ -289,12 +418,19 @@
                     <div class="icon-box mb-6 text-[#1e3a5f] text-2xl">
                         <i class="fas fa-utensils"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-[#1e3a5f] mb-3">Endüstriyel Mutfak</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">Paslanmaz çelik mutfak ekipmanları, ocaklar, fırınlar, davlumbazlar ve özel üretim çözümleri.</p>
-                    <div class="mt-6 flex items-center gap-2 text-[#1e3a5f] font-semibold text-sm group">
-                        <span>Detaylar</span>
-                        <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
-                    </div>
+                    <h3 class="text-xl font-bold text-[#1e3a5f] mb-3"
+    data-i18n="services.s1title">
+Endüstriyel Mutfak
+</h3>
+
+<p class="text-gray-600 text-sm leading-relaxed"
+   data-i18n="services.s1desc">
+Paslanmaz çelik mutfak ekipmanları, ocaklar, fırınlar, davlumbazlar ve özel üretim çözümleri.
+</p>
+
+<span data-i18n="services.details">Detaylar</span>
+    <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
+</div>
                 </div>
 
                 <!-- Service 2 -->
@@ -302,12 +438,20 @@
                     <div class="icon-box mb-6 text-[#1e3a5f] text-2xl">
                         <i class="fas fa-drafting-compass"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-[#1e3a5f] mb-3">Mimarlık Desteği</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">İç mekan tasarımı, mutfak planlaması, ergonomik düzen ve estetik çözümler.</p>
-                    <div class="mt-6 flex items-center gap-2 text-[#1e3a5f] font-semibold text-sm group">
-                        <span>Detaylar</span>
-                        <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
-                    </div>
+                    <h3 class="text-xl font-bold text-[#1e3a5f] mb-3"
+    data-i18n="services.s2.title">
+    Mimarlık Desteği
+</h3>
+
+<p class="text-gray-600 text-sm leading-relaxed"
+   data-i18n="services.s2.text">
+    İç mekan tasarımı, mutfak planlaması, ergonomik düzen ve estetik çözümler.
+</p>
+
+<div class="mt-6 flex items-center gap-2 text-[#1e3a5f] font-semibold text-sm group">
+    <span data-i18n="common.details">Detaylar</span>
+    <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
+</div>
                 </div>
 
                 <!-- Service 3 -->
@@ -315,12 +459,20 @@
                     <div class="icon-box mb-6 text-[#1e3a5f] text-2xl">
                         <i class="fas fa-tools"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-[#1e3a5f] mb-3">Özel Üretim</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">İsteğe bağlı özel ölçü ve tasarımlarda mutfak ekipmanları üretimi.</p>
-                    <div class="mt-6 flex items-center gap-2 text-[#1e3a5f] font-semibold text-sm group">
-                        <span>Detaylar</span>
-                        <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
-                    </div>
+                    <h3 class="text-xl font-bold text-[#1e3a5f] mb-3"
+    data-i18n="services.s3.title">
+    Özel Üretim
+</h3>
+
+<p class="text-gray-600 text-sm leading-relaxed"
+   data-i18n="services.s3.text">
+    İsteğe bağlı özel ölçü ve tasarımlarda mutfak ekipmanları üretimi.
+</p>
+
+<div class="mt-6 flex items-center gap-2 text-[#1e3a5f] font-semibold text-sm group">
+    <span data-i18n="common.details">Detaylar</span>
+    <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
+</div>
                 </div>
 
                 <!-- Service 4 -->
@@ -328,12 +480,20 @@
                     <div class="icon-box mb-6 text-[#1e3a5f] text-2xl">
                         <i class="fas fa-hammer"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-[#1e3a5f] mb-3">Tadilat & İnşaat</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">Komple restoran tadilatı, elektrik, su tesisatı, zemin ve duvar işleri.</p>
-                    <div class="mt-6 flex items-center gap-2 text-[#1e3a5f] font-semibold text-sm group">
-                        <span>Detaylar</span>
-                        <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
-                    </div>
+                    <h3 class="text-xl font-bold text-[#1e3a5f] mb-3"
+    data-i18n="services.s4.title">
+    Tadilat & İnşaat
+</h3>
+
+<p class="text-gray-600 text-sm leading-relaxed"
+   data-i18n="services.s4.text">
+    Komple restoran tadilatı, elektrik, su tesisatı, zemin ve duvar işleri.
+</p>
+
+<div class="mt-6 flex items-center gap-2 text-[#1e3a5f] font-semibold text-sm group">
+    <span data-i18n="common.details">Detaylar</span>
+    <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
+</div>
                 </div>
 
                 <!-- Service 5 -->
@@ -341,12 +501,20 @@
                     <div class="icon-box mb-6 text-[#1e3a5f] text-2xl">
                         <i class="fas fa-sign"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-[#1e3a5f] mb-3">Tabela & Görsel</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">Işıklı tabela, kutu harf, dijital baskı, menü panoları ve kurumsal kimlik.</p>
-                    <div class="mt-6 flex items-center gap-2 text-[#1e3a5f] font-semibold text-sm group">
-                        <span>Detaylar</span>
-                        <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
-                    </div>
+                    <h3 class="text-xl font-bold text-[#1e3a5f] mb-3"
+    data-i18n="services.s5.title">
+    Tabela & Görsel
+</h3>
+
+<p class="text-gray-600 text-sm leading-relaxed"
+   data-i18n="services.s5.text">
+    Işıklı tabela, kutu harf, dijital baskı, menü panoları ve kurumsal kimlik.
+</p>
+
+<div class="mt-6 flex items-center gap-2 text-[#1e3a5f] font-semibold text-sm group">
+    <span data-i18n="common.details">Detaylar</span>
+    <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
+</div>
                 </div>
 
                 <!-- Service 6 -->
@@ -354,12 +522,21 @@
                     <div class="icon-box mb-6 text-[#1e3a5f] text-2xl">
                         <i class="fas fa-headset"></i>
                     </div>
-                    <h3 class="text-xl font-bold text-[#1e3a5f] mb-3">7/24 Teknik Destek</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">Kurulum sonrası bakım, onarım, yedek parça ve uzaktan destek hizmetleri.</p>
-                    <div class="mt-6 flex items-center gap-2 text-[#1e3a5f] font-semibold text-sm group">
-                        <span>Detaylar</span>
-                        <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
-                    </div>
+      
+                    <h3 class="text-xl font-bold text-[#1e3a5f] mb-3"
+    data-i18n="services.s6.title">
+    7/24 Teknik Destek
+</h3>
+
+<p class="text-gray-600 text-sm leading-relaxed"
+   data-i18n="services.s6.text">
+    Kurulum sonrası bakım, onarım, yedek parça ve uzaktan destek hizmetleri.
+</p>
+
+<div class="mt-6 flex items-center gap-2 text-[#1e3a5f] font-semibold text-sm group">
+    <span data-i18n="common.details">Detaylar</span>
+    <i class="fas fa-arrow-right transition-transform group-hover:translate-x-2"></i>
+</div>
                 </div>
             </div>
 
@@ -372,13 +549,21 @@
                             <i class="fas fa-plane"></i>
                         </div>
                         <div>
-                            <h3 class="text-2xl font-bold mb-2">Dünya Çapında Teslimat</h3>
-                            <p class="text-white/80">50'den fazla ülkeye güvenli ve hızlı lojistik çözümleri. Gümrük işlemleri ve paketlemeyle birlikte kapıdan kapıya teslimat.</p>
-                        </div>
-                    </div>
-                    <a href="#iletisim" class="bg-white text-[#1e3a5f] px-8 py-4 rounded-full font-bold hover:bg-gray-100 transition whitespace-nowrap">
-                        Uluslararası Teklif Al
-                    </a>
+                            <h3 class="text-2xl font-bold mb-2"
+    data-i18n="shipping.title">
+    Dünya Çapında Teslimat
+</h3>
+
+<p class="text-white/80"
+   data-i18n="shipping.description">
+    50'den fazla ülkeye güvenli ve hızlı lojistik çözümleri. Gümrük işlemleri ve paketlemeyle birlikte kapıdan kapıya teslimat.
+</p>
+
+<a href="#iletisim"
+   class="bg-white text-[#1e3a5f] px-8 py-4 rounded-full font-bold hover:bg-gray-100 transition whitespace-nowrap"
+   data-i18n="shipping.button">
+    Uluslararası Teklif Al
+</a>
                 </div>
             </div>
         </div>
@@ -388,10 +573,20 @@
     <section id="surec" class="py-24 bg-gray-50 relative overflow-hidden">
         <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 reveal">
-                <div class="inline-block px-4 py-1 bg-[#c9a962]/10 text-[#c9a962] rounded-full text-sm font-bold mb-4">SÜRECİMİZ</div>
-                <h2 class="font-display text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-4">Nasıl Çalışıyoruz?</h2>
-                <p class="text-gray-600">Restoranınızı hayalden gerçeğe dört adımda ulaştırıyoruz.</p>
-            </div>
+                <div class="inline-block px-4 py-1 bg-[#c9a962]/10 text-[#c9a962] rounded-full text-sm font-bold mb-4"
+     data-i18n="process.badge">
+    SÜRECİMİZ
+</div>
+
+<h2 class="font-display text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-4"
+    data-i18n="process.title">
+    Nasıl Çalışıyoruz?
+</h2>
+
+<p class="text-gray-600"
+   data-i18n="process.subtitle">
+    Restoranınızı hayalden gerçeğe dört adımda ulaştırıyoruz.
+</p>
 
             <div class="relative">
                 <div class="step-line hidden md:block"></div>
@@ -403,8 +598,15 @@
                             <div class="w-12 h-12 bg-[#c9a962] rounded-xl flex items-center justify-center text-white text-xl mb-4 md:ml-auto">
                                 <i class="fas fa-search-location"></i>
                             </div>
-                            <h3 class="text-xl font-bold text-[#1e3a5f] mb-2">1. Ücretsiz Keşif</h3>
-                            <p class="text-gray-600">Mekanınızı yerinde inceliyoruz. İhtiyaçlarınızı analiz ediyor, ölçümler yapıyor ve ilk fikirleri paylaşıyoruz. Bu aşama tamamen ücretsizdir.</p>
+                            <h3 class="text-xl font-bold text-[#1e3a5f] mb-2"
+data-i18n="process.step1.title">
+1. Ücretsiz Keşif
+</h3>
+
+<p class="text-gray-600"
+data-i18n="process.step1.text">
+Mekanınızı yerinde inceliyoruz. İhtiyaçlarınızı analiz ediyor, ölçümler yapıyor ve ilk fikirleri paylaşıyoruz. Bu aşama tamamen ücretsizdir.
+</p>
                         </div>
                     </div>
                     <div class="step-dot hidden md:block"></div>
@@ -420,8 +622,15 @@
                             <div class="w-12 h-12 bg-[#1e3a5f] rounded-xl flex items-center justify-center text-white text-xl mb-4">
                                 <i class="fas fa-pencil-ruler"></i>
                             </div>
-                            <h3 class="text-xl font-bold text-[#1e3a5f] mb-2">2. Planlama & Tasarım</h3>
-                            <p class="text-gray-600">3D modelleme, mutfak düzeni, ergonomi planlaması ve maliyet analizi. Mimarlarımız ve mühendislerimiz detaylı projeyi hazırlar.</p>
+                            <h3 class="text-xl font-bold text-[#1e3a5f] mb-2"
+data-i18n="process.step2.title">
+2. Planlama & Tasarım
+</h3>
+
+<p class="text-gray-600"
+data-i18n="process.step2.text">
+3D modelleme, mutfak düzeni, ergonomi planlaması ve maliyet analizi. Mimarlarımız ve mühendislerimiz detaylı projeyi hazırlar.
+</p>
                         </div>
                     </div>
                 </div>
@@ -433,8 +642,15 @@
                             <div class="w-12 h-12 bg-[#c9a962] rounded-xl flex items-center justify-center text-white text-xl mb-4 md:ml-auto">
                                 <i class="fas fa-industry"></i>
                             </div>
-                            <h3 class="text-xl font-bold text-[#1e3a5f] mb-2">3. Üretim & Uygulama</h3>
-                            <p class="text-gray-600">Özel üretim ekipmanlar, tadilat işleri, elektrik ve su tesisatı, tabela montajı. Tüm süreçleri koordine edip takip ediyoruz.</p>
+                            <h3 class="text-xl font-bold text-[#1e3a5f] mb-2"
+data-i18n="process.step3.title">
+3. Üretim & Uygulama
+</h3>
+
+<p class="text-gray-600"
+data-i18n="process.step3.text">
+Özel üretim ekipmanlar, tadilat işleri, elektrik ve su tesisatı, tabela montajı. Tüm süreçleri koordine edip takip ediyoruz.
+</p>
                         </div>
                     </div>
                     <div class="step-dot hidden md:block"></div>
@@ -450,8 +666,15 @@
                             <div class="w-12 h-12 bg-[#1e3a5f] rounded-xl flex items-center justify-center text-white text-xl mb-4">
                                 <i class="fas fa-rocket"></i>
                             </div>
-                            <h3 class="text-xl font-bold text-[#1e3a5f] mb-2">4. Teslimat & Destek</h3>
-                            <p class="text-gray-600">Ekipman testleri, personel eğitimi, garanti belgeleri ve 7/24 teknik destek hattı. Yurt dışı teslimatlarımızda lojistik desteği sağlıyoruz.</p>
+                            <h3 class="text-xl font-bold text-[#1e3a5f] mb-2"
+data-i18n="process.step4.title">
+4. Teslimat & Destek
+</h3>
+
+<p class="text-gray-600"
+data-i18n="process.step4.text">
+Ekipman testleri, personel eğitimi, garanti belgeleri ve 7/24 teknik destek hattı. Yurt dışı teslimatlarımızda lojistik desteği sağlıyoruz.
+</p>
                         </div>
                     </div>
                 </div>
@@ -474,14 +697,22 @@
                 </div>
                 
                 <div class="space-y-6 reveal">
-                    <div class="inline-block px-4 py-1 bg-[#c9a962]/10 text-[#c9a962] rounded-full text-sm font-bold">HAKKIMIZDA</div>
-                    <h2 class="font-display text-4xl font-bold text-[#1e3a5f]">Tuncerdesing Kimdir?</h2>
-                    <p class="text-gray-600 leading-relaxed">
-                        2009'dan bu yana endüstriyel mutfak sektöründe faaliyet gösteren Tuncerdesing, müşterilerine tek çatı altında kapsamlı çözümler sunan öncü bir firmadır.
-                    </p>
-                    <p class="text-gray-600 leading-relaxed">
-                        Sadece ekipman satmıyor, işletmenizin kurulumundan işletmeye alınmasına kadar her adımda yanınızda oluyoruz. Özel üretim kapasitemiz, deneyimli teknik ekibimiz ve global lojistik ağımızla dünya standartlarında hizmet üretiyoruz.
-                    </p>
+                    <div class="inline-block px-4 py-1 bg-[#c9a962]/10 text-[#c9a962] rounded-full text-sm font-bold"
+     data-i18n="about.badge">
+HAKKIMIZDA
+</div>
+                    <h2 class="font-display text-4xl font-bold text-[#1e3a5f]"
+    data-i18n="about.title">
+Tuncerdesing Kimdir?
+</h2>
+                    <p class="text-gray-600 leading-relaxed"
+   data-i18n="about.text1">
+2009'dan bu yana endüstriyel mutfak sektöründe faaliyet gösteren Tuncerdesing, müşterilerine tek çatı altında kapsamlı çözümler sunan öncü bir firmadır.
+</p>
+                    <p class="text-gray-600 leading-relaxed"
+   data-i18n="about.text2">
+Sadece ekipman satmıyor, işletmenizin kurulumundan işletmeye alınmasına kadar her adımda yanınızda oluyoruz. Özel üretim kapasitemiz, deneyimli teknik ekibimiz ve global lojistik ağımızla dünya standartlarında hizmet üretiyoruz.
+</p>
                     
                     <div class="grid grid-cols-2 gap-6 pt-4">
                         <div class="flex items-start gap-3">
@@ -489,8 +720,15 @@
                                 <i class="fas fa-award"></i>
                             </div>
                             <div>
-                                <div class="font-bold text-[#1e3a5f]">Kalite Sertifikaları</div>
-                                <div class="text-sm text-gray-500">ISO 9001, CE Belgeli</div>
+                                <div class="font-bold text-[#1e3a5f]"
+     data-i18n="about.feature1.title">
+Kalite Sertifikaları
+</div>
+
+<div class="text-sm text-gray-500"
+     data-i18n="about.feature1.text">
+ISO 9001, CE Belgeli
+</div>
                             </div>
                         </div>
                         <div class="flex items-start gap-3">
@@ -498,8 +736,15 @@
                                 <i class="fas fa-shield-alt"></i>
                             </div>
                             <div>
-                                <div class="font-bold text-[#1e3a5f]">2 Yıl Garanti</div>
-                                <div class="text-sm text-gray-500">Tüm Ekipmanlarda</div>
+                                <div class="font-bold text-[#1e3a5f]"
+     data-i18n="about.feature2.title">
+2 Yıl Garanti
+</div>
+
+<div class="text-sm text-gray-500"
+     data-i18n="about.feature2.text">
+Tüm Ekipmanlarda
+</div>
                             </div>
                         </div>
                         <div class="flex items-start gap-3">
@@ -507,8 +752,15 @@
                                 <i class="fas fa-clock"></i>
                             </div>
                             <div>
-                                <div class="font-bold text-[#1e3a5f]">Hızlı Teslimat</div>
-                                <div class="text-sm text-gray-500">Stoklu Ürünlerde 48 Saat</div>
+                                <div class="font-bold text-[#1e3a5f]"
+     data-i18n="about.feature3.title">
+Hızlı Teslimat
+</div>
+
+<div class="text-sm text-gray-500"
+     data-i18n="about.feature3.text">
+Stoklu Ürünlerde 48 Saat
+</div>
                             </div>
                         </div>
                         <div class="flex items-start gap-3">
@@ -516,8 +768,15 @@
                                 <i class="fas fa-hand-holding-usd"></i>
                             </div>
                             <div>
-                                <div class="font-bold text-[#1e3a5f]">Uygun Fiyat</div>
-                                <div class="text-sm text-gray-500">Doğrudan Üretici</div>
+                                <div class="font-bold text-[#1e3a5f]"
+     data-i18n="about.feature4.title">
+Uygun Fiyat
+</div>
+
+<div class="text-sm text-gray-500"
+     data-i18n="about.feature4.text">
+Doğrudan Üretici
+</div>
                             </div>
                         </div>
                     </div>
@@ -529,17 +788,36 @@
     <!-- CTA Section -->
     <section class="parallax py-24 relative" style="background-image: linear-gradient(rgba(30, 58, 95, 0.9), rgba(30, 58, 95, 0.9)), url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1920&h=600&fit=crop');">
         <div class="max-w-4xl mx-auto px-4 text-center relative z-10 reveal">
-            <h2 class="font-display text-4xl lg:text-5xl font-bold text-white mb-6">Hayalinizdeki İşletmeyi Kurmaya Hazır mısınız?</h2>
-            <p class="text-white/80 text-lg mb-8 max-w-2xl mx-auto">Ücretsiz keşif hizmetimizle başlayın. Uzman ekibimiz mekanınızı ziyaret edip, en uygun çözümleri sunsun.</p>
+            <h2 class="font-display text-4xl lg:text-5xl font-bold text-white mb-6"
+    data-i18n="cta.title">
+Hayalinizdeki İşletmeyi Kurmaya Hazır mısınız?
+</h2>
+            <p class="text-white/80 text-lg mb-8 max-w-2xl mx-auto"
+   data-i18n="cta.description">
+Ücretsiz keşif hizmetimizle başlayın. Uzman ekibimiz mekanınızı ziyaret edip, en uygun çözümleri sunsun.
+</p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="tel:+905369852926" class="bg-[#c9a962] text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-[#b8984f] transition inline-flex items-center justify-center gap-2">
-                    <i class="fas fa-phone"></i>
-                    Hemen Ara: 0536 985 29 26
-                </a>
-                <a href="#iletisim" class="bg-white/10 backdrop-blur text-white border-2 border-white/30 px-8 py-4 rounded-full font-bold text-lg hover:bg-white/20 transition inline-flex items-center justify-center gap-2">
-                    <i class="fas fa-envelope"></i>
-                    Form Doldur
-                </a>
+                <a href="tel:+905369852926"
+   class="bg-[#c9a962] text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-[#b8984f] transition inline-flex items-center justify-center gap-2">
+
+    <i class="fas fa-phone"></i>
+
+    <span data-i18n="cta.call">
+        Hemen Ara:
+    </span>
+
+    0536 985 29 26
+</a>
+                <a href="#iletisim"
+   class="bg-white/10 backdrop-blur text-white border-2 border-white/30 px-8 py-4 rounded-full font-bold text-lg hover:bg-white/20 transition inline-flex items-center justify-center gap-2">
+
+    <i class="fas fa-envelope"></i>
+
+    <span data-i18n="cta.form">
+        Form Doldur
+    </span>
+
+</a>
             </div>
         </div>
     </section>
@@ -548,7 +826,26 @@
     <section id="iletisim" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16 reveal">
-                <div class="inline-block px-4 py-1 bg-[#c9a962]/10 text-[#c9a962] rounded-full text-sm font-bold mb-4">İLETİŞİM</div>
+
+    <div
+        class="inline-block px-4 py-1 bg-[#c9a962]/10 text-[#c9a962] rounded-full text-sm font-bold mb-4"
+        data-i18n="contact.badge">
+        İLETİŞİM
+    </div>
+
+    <h2
+        class="font-display text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-4"
+        data-i18n="contact.title">
+        Bize Ulaşın
+    </h2>
+
+    <p
+        class="text-gray-600"
+        data-i18n="contact.subtitle">
+        Ücretsiz keşif ve fiyat teklifi için form doldurun veya doğrudan arayın.
+    </p>
+
+</div>
                 <h2 class="font-display text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-4">Bize Ulaşın</h2>
                 <p class="text-gray-600">Ücretsiz keşif ve fiyat teklifi için form doldurun veya doğrudan arayın.</p>
             </div>
@@ -561,9 +858,23 @@
                             <i class="fas fa-phone-alt"></i>
                         </div>
                         <div>
-                            <div class="font-bold text-[#1e3a5f] mb-1">Telefon</div>
+                            <div
+class="font-bold text-[#1e3a5f] mb-1"
+data-i18n="contact.phone">
+
+Telefon
+
+</div>
                             <a href="tel:+905369852926" class="text-gray-600 hover:text-[#1e3a5f] transition">0536 985 29 26</a>
-                            <div class="text-xs text-green-600 mt-1"><i class="fas fa-circle text-[8px] mr-1"></i>Şu an müsait</div>
+                            <div
+class="text-xs text-green-600 mt-1"
+data-i18n="contact.available">
+
+<i class="fas fa-circle text-[8px] mr-1"></i>
+
+Şu an müsait
+
+</div>
                         </div>
                     </div>
 
@@ -572,7 +883,13 @@
                             <i class="fas fa-envelope"></i>
                         </div>
                         <div>
-                            <div class="font-bold text-[#1e3a5f] mb-1">E-posta</div>
+                            <div
+class="font-bold text-[#1e3a5f] mb-1"
+data-i18n="contact.email">
+
+E-posta
+
+</div>
                             <a href="mailto:info@tuncerdesing.com" class="text-gray-600 hover:text-[#1e3a5f] transition">info@tuncerdesing.com</a>
                         </div>
                     </div>
@@ -582,8 +899,21 @@
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
                         <div>
-                            <div class="font-bold text-[#1e3a5f] mb-1">Adres</div>
-                            <p class="text-gray-600 text-sm">Sanayi Bölgesi, Atölye No: 15<br>İstanbul / Türkiye</p>
+                            <div
+class="font-bold text-[#1e3a5f] mb-1"
+data-i18n="contact.address">
+
+Adres
+
+</div>
+                            <p
+    class="text-gray-600 text-sm"
+    data-i18n="contact.addressText">
+
+    Sanayi Bölgesi, Atölye No: 15<br>
+    İstanbul / Türkiye
+
+</p>
                         </div>
                     </div>
 
@@ -592,8 +922,22 @@
                             <i class="fas fa-clock"></i>
                         </div>
                         <div>
-                            <div class="font-bold text-[#1e3a5f] mb-1">Çalışma Saatleri</div>
-                            <p class="text-gray-600 text-sm">Pzt - Cmt: 08:00 - 18:00<br>Pazar: Kapalı</p>
+                            <div
+class="font-bold text-[#1e3a5f] mb-1"
+data-i18n="contact.hours">
+
+Çalışma Saatleri
+
+</div>
+                            <p
+class="text-gray-600 text-sm"
+data-i18n="contact.hoursText">
+
+Pzt-Cmt:08:00-18:00
+<br>
+Pazar: Kapalı
+
+</p>
                         </div>
                     </div>
 
@@ -619,48 +963,116 @@
                     <form id="contactForm" class="bg-gray-50 rounded-2xl p-8 shadow-lg">
                         <div class="grid md:grid-cols-2 gap-6 mb-6">
                             <div>
-                                <label class="block text-sm font-medium text-gray-700 mb-2">Ad Soyad</label>
-                                <input type="text" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#1e3a5f] focus:ring-2 focus:ring-[#1e3a5f]/20 outline-none transition bg-white" placeholder="Adınız Soyadınız">
+                                <label
+    class="block text-sm font-medium text-gray-700 mb-2"
+    data-i18n="form.name">
+
+    Ad Soyad
+
+</label>
+
+<input
+    type="text"
+    required
+    class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#1e3a5f] focus:ring-2 focus:ring-[#1e3a5f]/20 outline-none transition bg-white"
+    data-placeholder="form.namePlaceholder"
+    placeholder="Adınız Soyadınız">
                             </div>
                             <div>
-                                <label class="block text-sm font-medium text-gray-700 mb-2">Telefon</label>
-                                <input type="tel" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#1e3a5f] focus:ring-2 focus:ring-[#1e3a5f]/20 outline-none transition bg-white" placeholder="05XX XXX XX XX">
+                                <label
+    class="block text-sm font-medium text-gray-700 mb-2"
+    data-i18n="form.phone">
+    Telefon
+</label>
+
+<input
+    type="tel"
+    required
+    class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#1e3a5f] focus:ring-2 focus:ring-[#1e3a5f]/20 outline-none transition bg-white"
+    data-placeholder="form.phonePlaceholder"
+    placeholder="05XX XXX XX XX">
                             </div>
                         </div>
                         
                         <div class="grid md:grid-cols-2 gap-6 mb-6">
                             <div>
-                                <label class="block text-sm font-medium text-gray-700 mb-2">E-posta</label>
-                                <input type="email" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#1e3a5f] focus:ring-2 focus:ring-[#1e3a5f]/20 outline-none transition bg-white" placeholder="ornek@email.com">
+                                <label
+    class="block text-sm font-medium text-gray-700 mb-2"
+    data-i18n="form.email">
+    E-posta
+</label>
+
+<input
+    type="email"
+    required
+    class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#1e3a5f] focus:ring-2 focus:ring-[#1e3a5f]/20 outline-none transition bg-white"
+    data-placeholder="form.emailPlaceholder"
+    placeholder="ornek@email.com">
                             </div>
                             <div>
-                                <label class="block text-sm font-medium text-gray-700 mb-2">Hizmet Türü</label>
+                                <label
+    class="block text-sm font-medium text-gray-700 mb-2"
+    data-i18n="form.service">
+    Hizmet Türü
+</label>
                                 <select class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#1e3a5f] focus:ring-2 focus:ring-[#1e3a5f]/20 outline-none transition bg-white">
-                                    <option>Endüstriyel Mutfak</option>
-                                    <option>Restoran Kurulumu</option>
-                                    <option>Tadilat</option>
-                                    <option>Mimarlık Desteği</option>
-                                    <option>Tabela</option>
-                                    <option>Teknik Destek</option>
-                                    <option>Diğer</option>
-                                </select>
+
+    <option data-i18n="form.option1">Endüstriyel Mutfak</option>
+
+    <option data-i18n="form.option2">Restoran Kurulumu</option>
+
+    <option data-i18n="form.option3">Tadilat</option>
+
+    <option data-i18n="form.option4">Mimarlık Desteği</option>
+
+    <option data-i18n="form.option5">Tabela</option>
+
+    <option data-i18n="form.option6">Teknik Destek</option>
+
+    <option data-i18n="form.option7">Diğer</option>
+
+</select>
                             </div>
                         </div>
 
                         <div class="mb-6">
-                            <label class="block text-sm font-medium text-gray-700 mb-2">Mesajınız</label>
-                            <textarea rows="4" required class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#1e3a5f] focus:ring-2 focus:ring-[#1e3a5f]/20 outline-none transition bg-white resize-none" placeholder="Projeniz hakkında kısa bilgi verin..."></textarea>
+                            <label
+    class="block text-sm font-medium text-gray-700 mb-2"
+    data-i18n="form.message">
+    Mesajınız
+</label>
+
+<textarea
+    rows="4"
+    required
+    class="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#1e3a5f] focus:ring-2 focus:ring-[#1e3a5f]/20 outline-none transition bg-white resize-none"
+    data-placeholder="form.messagePlaceholder"
+    placeholder="Projeniz hakkında kısa bilgi verin..."></textarea>
                         </div>
 
                         <div class="flex items-center gap-3 mb-6">
                             <input type="checkbox" id="consent" required class="w-5 h-5 text-[#1e3a5f] rounded border-gray-300 focus:ring-[#1e3a5f]">
-                            <label for="consent" class="text-sm text-gray-600">Ücretsiz keşif hizmeti almak istiyorum ve iletişim bilgilerimin kullanılmasına izin veriyorum.</label>
+                            <label
+    for="consent"
+    class="text-sm text-gray-600"
+    data-i18n="form.consent">
+
+    Ücretsiz keşif hizmeti almak istiyorum ve iletişim bilgilerimin kullanılmasına izin veriyorum.
+
+</label>
                         </div>
 
-                        <button type="submit" class="btn-primary w-full justify-center text-lg">
-                            <i class="fas fa-paper-plane"></i>
-                            Gönder
-                        </button>
+                        <button
+    type="submit"
+    class="btn-primary w-full justify-center text-lg">
+
+    <i class="fas fa-paper-plane"></i>
+
+    <span data-i18n="form.submit">
+        Gönder
+    </span>
+
+</button>
                     </form>
                 </div>
             </div>
@@ -682,27 +1094,80 @@
                 </div>
                 
                 <div>
-                    <h4 class="font-bold mb-4 text-[#c9a962]">Hızlı Linkler</h4>
+                    <h4 class="font-bold mb-4 text-[#c9a962]" data-i18n="footer.quickLinks">
+    Hızlı Linkler
+</h4>
                     <ul class="space-y-2 text-sm text-white/60">
-                        <li><a href="#anasayfa" class="hover:text-white transition">Anasayfa</a></li>
-                        <li><a href="#hizmetler" class="hover:text-white transition">Hizmetler</a></li>
-                        <li><a href="#surec" class="hover:text-white transition">Süreç</a></li>
-                        <li><a href="#hakkimizda" class="hover:text-white transition">Hakkımızda</a></li>
+                        <li>
+    <a href="#anasayfa"
+       class="hover:text-white transition"
+       data-i18n="footer.home">
+        Anasayfa
+    </a>
+</li>
+                        <li>
+    <a href="#hizmetler"
+       class="hover:text-white transition"
+       data-i18n="footer.services">
+        Hizmetler
+    </a>
+</li>
+                        <li>
+    <a href="#surec"
+       class="hover:text-white transition"
+       data-i18n="footer.process">
+        Süreç
+    </a>
+</li>
+                        <li>
+    <a href="#hakkimizda"
+       class="hover:text-white transition"
+       data-i18n="footer.about">
+        Hakkımızda
+    </a>
+</li>
                     </ul>
                 </div>
                 
                 <div>
-                    <h4 class="font-bold mb-4 text-[#c9a962]">Hizmetler</h4>
+                    <h4 class="font-bold mb-4 text-[#c9a962]" data-i18n="footer.servicesTitle">
+    Hizmetler
+</h4>
                     <ul class="space-y-2 text-sm text-white/60">
-                        <li><a href="#" class="hover:text-white transition">Endüstriyel Mutfak</a></li>
-                        <li><a href="#" class="hover:text-white transition">Özel Üretim</a></li>
-                        <li><a href="#" class="hover:text-white transition">Mimarlık</a></li>
-                        <li><a href="#" class="hover:text-white transition">Yurt Dışı Teslimat</a></li>
+<li>
+    <a href="#"
+       class="hover:text-white transition"
+       data-i18n="footer.service1">
+        Endüstriyel Mutfak
+    </a>
+</li>                        <li>
+    <a href="#"
+       class="hover:text-white transition"
+       data-i18n="footer.service2">
+        Özel Üretim
+    </a>
+</li>
+                        <li>
+    <a href="#"
+       class="hover:text-white transition"
+       data-i18n="footer.service3">
+        Mimarlık
+    </a>
+</li>
+                        <li>
+    <a href="#"
+       class="hover:text-white transition"
+       data-i18n="footer.service4">
+        Yurt Dışı Teslimat
+    </a>
+</li>
                     </ul>
                 </div>
                 
                 <div>
-                    <h4 class="font-bold mb-4 text-[#c9a962]">İletişim</h4>
+                    <h4 class="font-bold mb-4 text-[#c9a962]" data-i18n="footer.contactTitle">
+    İletişim
+</h4>
                     <ul class="space-y-2 text-sm text-white/60">
                         <li class="flex items-center gap-2"><i class="fas fa-phone text-xs"></i> 0536 985 29 26</li>
                         <li class="flex items-center gap-2"><i class="fas fa-envelope text-xs"></i> info@tuncerdesing.com</li>
@@ -712,7 +1177,11 @@
             </div>
             
             <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-                <div class="text-sm text-white/40"> 2024 Tuncerdesing. Tüm hakları saklıdır.</div>
+                <div
+class="text-sm text-white/40"
+data-i18n="footer.copyright">
+2024 Tuncerdesing. Tüm hakları saklıdır.
+</div>
                 <div class="flex gap-4 text-sm text-white/40">
                     <a href="#" class="hover:text-white transition">Gizlilik Politikası</a>
                     <a href="#" class="hover:text-white transition">Kullanım Koşulları</a>

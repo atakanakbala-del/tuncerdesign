@@ -3,5 +3,152 @@
   "nav.services": "Services",
   "nav.process": "Processus",
   "nav.about": "À propos",
-  "nav.contact": "Contact"
+  "nav.contact": "Contact",
+
+  "hero.support": "Support technique 24h/24 et 7j/7",
+  "hero.title1": "Nous créons",
+  "hero.title2": "Votre Restaurant",
+  "hero.title3": "De A à Z",
+
+  "hero.description": "Équipements de cuisine professionnelle, fabrication sur mesure, installation, rénovation, assistance architecturale et livraison dans le monde entier.",
+  "hero.freePlan": "Étude et planification gratuites",
+  "hero.description2": "pour transformer votre projet en réalité.",
+
+  "hero.button1": "Demander une étude gratuite",
+  "hero.button2": "Nos Services",
+
+  "hero.countries": "50+ Pays",
+  "hero.delivery": "Livraison",
+
+  "hero.video": "Notre vidéo",
+  "hero.videoTime": "2:45 min",
+
+  "hero.projects": "Projets réalisés",
+  "hero.global": "Mondial",
+  "hero.logistics": "Réseau Logistique",
+
+  "stats.projects": "Projets réalisés",
+  "stats.countries": "Pays desservis",
+  "stats.experience": "Années d'expérience",
+  "stats.satisfaction": "Satisfaction Client %",
+
+  "services.badge": "NOS SERVICES",
+  "services.title": "Votre partenaire complet",
+  "services.description": "Nous sommes à vos côtés à chaque étape de la création de votre restaurant.",
+
+  "services.s1title": "Cuisine Industrielle",
+  "services.s1desc": "Équipements inox, fours, hottes, cuisinières et fabrications sur mesure.",
+
+  "services.s2.title": "Assistance Architecturale",
+  "services.s2.text": "Conception intérieure, planification des cuisines et solutions ergonomiques.",
+
+  "services.s3.title": "Fabrication Sur Mesure",
+  "services.s3.text": "Production d'équipements selon vos dimensions et besoins.",
+
+  "services.s4.title": "Rénovation & Construction",
+  "services.s4.text": "Rénovation complète, plomberie, électricité et travaux de finition.",
+
+  "services.s5.title": "Enseignes & Visuels",
+  "services.s5.text": "Enseignes lumineuses, impressions numériques et identité visuelle.",
+
+  "services.s6.title": "Support Technique 24/7",
+  "services.s6.text": "Maintenance, réparation, pièces détachées et assistance technique.",
+
+  "common.details": "Détails",
+
+  "shipping.title": "Livraison Internationale",
+  "shipping.description": "Livraison rapide et sécurisée dans plus de 50 pays.",
+  "shipping.button": "Obtenir un devis",
+
+  "process.badge": "NOTRE PROCESSUS",
+  "process.title": "Comment travaillons-nous ?",
+  "process.subtitle": "Nous réalisons votre restaurant en quatre étapes.",
+
+  "process.step1.title": "1. Étude Gratuite",
+  "process.step1.text": "Nous analysons votre espace et vos besoins gratuitement.",
+
+  "process.step2.title": "2. Conception",
+  "process.step2.text": "Plans 3D, conception ergonomique et étude des coûts.",
+
+  "process.step3.title": "3. Fabrication",
+  "process.step3.text": "Production, rénovation et installation des équipements.",
+
+  "process.step4.title": "4. Livraison & Assistance",
+  "process.step4.text": "Tests, garantie, formation et support technique.",
+
+  "about.badge": "À PROPOS",
+  "about.title": "Qui est Tuncerdesing ?",
+  "about.text1": "Depuis 2009, nous proposons des solutions complètes en cuisine professionnelle.",
+  "about.text2": "Nous accompagnons nos clients de la conception jusqu'à la mise en service.",
+
+  "about.feature1.title": "Certificats Qualité",
+  "about.feature1.text": "ISO 9001, Certifié CE",
+
+  "about.feature2.title": "Garantie 2 ans",
+  "about.feature2.text": "Sur tous les équipements",
+
+  "about.feature3.title": "Livraison Rapide",
+  "about.feature3.text": "48h pour les produits en stock",
+
+  "about.feature4.title": "Prix Compétitifs",
+  "about.feature4.text": "Fabricant Direct",
+
+  "cta.title": "Prêt à créer votre entreprise ?",
+  "cta.description": "Commencez avec notre étude gratuite.",
+  "cta.call": "Appelez maintenant :",
+  "cta.form": "Remplir le formulaire",
+
+  "contact.badge": "CONTACT",
+  "contact.title": "Contactez-nous",
+  "contact.description": "Remplissez le formulaire pour obtenir un devis gratuit.",
+
+  "contact.phone": "Téléphone",
+  "contact.available": "Disponible",
+  "contact.email": "E-mail",
+  "contact.address": "Adresse",
+  "contact.addressText": "Zone Industrielle, Atelier N°15<br>Istanbul / Turquie",
+  "contact.hours": "Horaires",
+  "contact.hoursText": "Lun - Sam : 08:00 - 18:00<br>Dimanche : Fermé",
+
+  "form.name": "Nom Complet",
+  "form.phone": "Téléphone",
+  "form.email": "E-mail",
+  "form.service": "Type de service",
+  "form.message": "Votre message",
+
+  "form.namePlaceholder": "Votre nom",
+  "form.phonePlaceholder": "05XX XXX XX XX",
+  "form.emailPlaceholder": "exemple@email.com",
+  "form.messagePlaceholder": "Décrivez votre projet...",
+
+  "form.option1": "Cuisine Industrielle",
+  "form.option2": "Installation de Restaurant",
+  "form.option3": "Rénovation",
+  "form.option4": "Architecture",
+  "form.option5": "Enseigne",
+  "form.option6": "Support Technique",
+  "form.option7": "Autre",
+
+  "form.consent": "J'autorise l'utilisation de mes coordonnées pour bénéficier de l'étude gratuite.",
+  "form.send": "Envoyer",
+
+  "footer.quickLinks": "Liens Rapides",
+  "footer.home": "Accueil",
+  "footer.services": "Services",
+  "footer.process": "Processus",
+  "footer.about": "À propos",
+
+  "footer.servicesTitle": "Services",
+  "footer.service1": "Cuisine Industrielle",
+  "footer.service2": "Fabrication Sur Mesure",
+  "footer.service3": "Architecture",
+  "footer.service4": "Livraison Internationale",
+
+  "footer.contactTitle": "Contact",
+
+  "footer.copyright": "© 2024 Tuncerdesing. Tous droits réservés.",
+  "footer.privacy": "Politique de confidentialité",
+  "footer.terms": "Conditions d'utilisation",
+
+  "marquee.text": "CUISINE INDUSTRIELLE • FABRICATION SUR MESURE • INSTALLATION • RÉNOVATION • ARCHITECTURE • SUPPORT TECHNIQUE • LIVRAISON INTERNATIONALE • ÉTUDE GRATUITE • PLANIFICATION •"
 }

@@ -116,23 +116,3 @@ document.addEventListener('mousemove', (e) => {
     });
 });
 
-// Dil Menüsü
-const languageButton = document.getElementById("languageButton");
-const languageMenu = document.getElementById("languageMenu");
-
-if (languageButton && languageMenu) {
-
-    languageButton.addEventListener("click", function (e) {
-        e.stopPropagation();
-        languageMenu.classList.toggle("hidden");
-    });
-
-    document.addEventListener("click", function () {
-        languageMenu.classList.add("hidden");
-    });
-
-    languageMenu.addEventListener("click", function (e) {
-        e.stopPropagation();
-    });
-
-}

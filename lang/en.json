@@ -2,6 +2,57 @@
   "nav.home": "Home",
   "nav.services": "Services",
   "nav.process": "Process",
-  "nav.about": "About",
-  "nav.contact": "Contact"
+  "nav.about": "About Us",
+  "nav.contact": "Contact",
+
+  "hero.support": "24/7 Technical Support",
+  "hero.title1": "We Build",
+  "hero.title2": "Your Restaurant",
+  "hero.title3": "From Start to Finish",
+
+  "hero.description": "Industrial kitchen equipment, custom manufacturing, installation, renovation, architectural support and worldwide delivery.",
+  "hero.freePlan": "Free consultation & planning",
+  "hero.description2": "to turn your dream business into reality.",
+
+  "hero.button1": "Get Free Consultation",
+  "hero.button2": "Our Services",
+
+  "hero.countries": "50+ Countries",
+  "hero.delivery": "Delivery",
+
+  "hero.video": "Introduction Video",
+  "hero.videoTime": "2:45 min",
+
+  "hero.projects": "Completed Projects",
+  "hero.global": "Global",
+  "hero.logistics": "Logistics Network",
+
+  "stats.projects": "Completed Projects",
+  "stats.countries": "Countries Delivered",
+  "stats.experience": "Years of Experience",
+  "stats.satisfaction": "Customer Satisfaction %",
+
+  "services.badge": "OUR SERVICES",
+  "services.title": "Your Complete Solution Partner",
+  "services.description": "We are with you at every stage of restaurant setup.",
+
+  "footer.quickLinks": "Quick Links",
+  "footer.home": "Home",
+  "footer.services": "Services",
+  "footer.process": "Process",
+  "footer.about": "About Us",
+
+  "footer.servicesTitle": "Services",
+  "footer.service1": "Industrial Kitchen",
+  "footer.service2": "Custom Manufacturing",
+  "footer.service3": "Architecture",
+  "footer.service4": "International Delivery",
+
+  "footer.contactTitle": "Contact",
+
+  "common.details": "Details",
+
+  "copyright": "© 2024 Tuncerdesing. All rights reserved.",
+
+  "marquee": "INDUSTRIAL KITCHENS • CUSTOM MANUFACTURING • INSTALLATION • RENOVATION • ARCHITECTURE • TECHNICAL SUPPORT • INTERNATIONAL DELIVERY • FREE DISCOVERY • PLANNING • INDUSTRIAL KITCHENS • CUSTOM MANUFACTURING • INSTALLATION • RENOVATION • ARCHITECTURE • TECHNICAL SUPPORT • INTERNATIONAL DELIVERY • FREE DISCOVERY • PLANNING •"
 }
