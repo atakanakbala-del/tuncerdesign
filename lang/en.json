@@ -104,7 +104,7 @@
 "about.feature1.text": "ISO 9001, CE Certified",
 
 "about.feature2.title": "2-Year Warranty",
-"about.feature2.text": "On All Equipment",,
+"about.feature2.text": "On All Equipment",
 "about.feature3.title": "Worldwide Delivery",
 "about.feature3.text": "50+ Countries",
 
@@ -133,6 +133,5 @@
 "form.company": "Company",
 "form.message": "Your Message",
 "form.submit": "Send Message",
-
 "toast.success": "Success!",
 "toast.message": "Your message has been received. We will contact you as soon as possible."}
