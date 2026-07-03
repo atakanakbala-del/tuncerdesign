@@ -134,5 +134,28 @@
 "form.message": "Your Message",
 "form.submit": "Send Message",
 "toast.success": "Success!",
-"toast.message": "Your message has been received. We will contact you as soon as possible."
+"toast.message": "Your message has been received. We will contact you as soon as possible.",
+"contact.available": "Available now",
+"contact.addressText": "Industrial Zone, Workshop No:15<br>Istanbul / Turkey",
+"contact.hours": "Working Hours",
+"contact.hoursText": "Mon-Sat: 08:00-18:00<br>Sunday: Closed",
+
+"form.service": "Service Type",
+
+"form.option1": "Industrial Kitchen",
+"form.option2": "Restaurant Setup",
+"form.option3": "Renovation",
+"form.option4": "Architectural Support",
+"form.option5": "Signage",
+"form.option6": "Technical Support",
+"form.option7": "Other",
+
+"form.namePlaceholder": "Your Full Name",
+"form.phonePlaceholder": "05XX XXX XX XX",
+"form.emailPlaceholder": "example@email.com",
+"form.messagePlaceholder": "Tell us briefly about your project...",
+
+"form.consent": "I would like to receive a free consultation and allow my contact information to be used.",
+
+"footer.copyright": "© 2024 Tuncerdesign. All rights reserved."
 }
