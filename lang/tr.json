@@ -27,6 +27,7 @@
   "hero.global": "Global",
   "hero.logistics": "Lojistik Ağı",
 
+  "stats.title": "İstatistiklerimiz",
   "stats.projects": "Tamamlanan Proje",
   "stats.countries": "Ülkeye Teslimat",
   "stats.experience": "Yıllık Deneyim",
@@ -94,7 +95,7 @@
   "about.feature4.text": "Doğrudan Üretici",
 
   "cta.title": "Hayalinizdeki İşletmeyi Kurmaya Hazır mısınız?",
-  "cta.description": "Ücretsiz keşif hizmetimizle başlayın. Uzman ekibimiz mekanınızı ziyaret edip en uygun çözümleri sunsun.",
+  "cta.description": "Ücretsiz keşif hizmetimizle başlayın. Uzman ekibimiz mekanınızı ziyaret edip, en uygun çözümleri sunsun.",
   "cta.call": "Hemen Ara:",
   "cta.form": "Form Doldur",
 
@@ -108,7 +109,7 @@
   "contact.address": "Adres",
   "contact.addressText": "Sanayi Bölgesi, Atölye No:15<br>İstanbul / Türkiye",
   "contact.hours": "Çalışma Saatleri",
-  "contact.hoursText": "Pzt - Cmt: 08:00 - 18:00<br>Pazar: Kapalı",
+  "contact.hoursText": "Pzt-Cmt:08:00-18:00<br>Pazar: Kapalı",
 
   "form.name": "Ad Soyad",
   "form.phone": "Telefon",
@@ -131,6 +132,9 @@
 
   "form.consent": "Ücretsiz keşif hizmeti almak istiyorum ve iletişim bilgilerimin kullanılmasına izin veriyorum.",
   "form.send": "Gönder",
+
+  "toast.success": "Başarılı!",
+  "toast.message": "Mesajınız alındı, en kısa sürede dönüş yapacağız.",
 
   "footer.quickLinks": "Hızlı Linkler",
   "footer.home": "Anasayfa",
