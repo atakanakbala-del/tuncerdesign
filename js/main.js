@@ -1,7 +1,8 @@
 // Loader
 window.addEventListener('load', () => {
     setTimeout(() => {
-        document.getElementById('loader').classList.add('hidden');
+        const loader = document.getElementById('loader');
+        if (loader) loader.classList.add('hidden');
     }, 500);
 });
 
@@ -30,6 +31,8 @@ gsap.utils.toArray('.reveal').forEach(element => {
 const counters = document.querySelectorAll('.counter');
 counters.forEach(counter => {
     const target = parseInt(counter.getAttribute('data-target'));
+    if (isNaN(target)) return;
+
     gsap.to(counter, {
         innerHTML: target,
         duration: 2,
@@ -39,9 +42,8 @@ counters.forEach(counter => {
             start: 'top 80%',
         },
         onUpdate: function () {
-            counter.innerHTML = Math.ceil(this.targets()[0].innerHTML);
-            if (target === 100) counter.innerHTML += '%';
-            else counter.innerHTML += '+';
+            const value = Math.ceil(this.targets()[0].innerHTML);
+            counter.textContent = target === 100 ? value + '%' : value + '+';
         }
     });
 });
@@ -49,11 +51,14 @@ counters.forEach(counter => {
 // Navbar scroll effect
 window.addEventListener('scroll', () => {
     const navbar = document.getElementById('navbar');
+    if (!navbar) return;
 
     if (window.pageYOffset > 100) {
         navbar.classList.add('shadow-lg');
+        navbar.querySelector('.glass')?.classList.add('bg-white/95');
     } else {
         navbar.classList.remove('shadow-lg');
+        navbar.querySelector('.glass')?.classList.remove('bg-white/95');
     }
 });
 
@@ -94,25 +99,34 @@ if (contactForm) {
         e.preventDefault();
 
         const toast = document.getElementById('toast');
-        toast.classList.add('show');
+        if (toast) toast.classList.add('show');
 
         this.reset();
 
         setTimeout(() => {
-            toast.classList.remove('show');
+            if (toast) toast.classList.remove('show');
         }, 4000);
     });
 }
 
-// Parallax
-document.addEventListener('mousemove', (e) => {
-    const shapes = document.querySelectorAll('.hero-shape');
+// Parallax (sadece desktop)
+const isTouchDevice = window.matchMedia('(pointer: coarse)').matches;
 
-    shapes.forEach((shape, index) => {
-        const speed = (index + 1) * 20;
-        const xOffset = (window.innerWidth / 2 - e.clientX) / speed;
-        const yOffset = (window.innerHeight / 2 - e.clientY) / speed;
-        shape.style.transform = `translate(${xOffset}px, ${yOffset}px)`;
+if (!isTouchDevice) {
+    document.addEventListener('mousemove', (e) => {
+        const shapes = document.querySelectorAll('.hero-shape');
+
+        shapes.forEach((shape, index) => {
+            const speed = (index + 1) * 20;
+            const xOffset = (window.innerWidth / 2 - e.clientX) / speed;
+            const yOffset = (window.innerHeight / 2 - e.clientY) / speed;
+            shape.style.transform = `translate(${xOffset}px, ${yOffset}px)`;
+        });
     });
-});
+}
 
+// Dinamik yıl güncelleme
+document.querySelectorAll('[data-i18n="footer.copyright"]').forEach(el => {
+    const currentYear = new Date().getFullYear();
+    el.innerHTML = el.innerHTML.replace(/\d{4}/, currentYear);
+});
