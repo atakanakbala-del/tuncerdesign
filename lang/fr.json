@@ -27,6 +27,7 @@
   "hero.global": "Mondial",
   "hero.logistics": "Réseau Logistique",
 
+  "stats.title": "Nos Statistiques",
   "stats.projects": "Projets réalisés",
   "stats.countries": "Pays desservis",
   "stats.experience": "Années d'expérience",
@@ -57,7 +58,7 @@
   "common.details": "Détails",
 
   "shipping.title": "Livraison Internationale",
-  "shipping.description": "Livraison rapide et sécurisée dans plus de 50 pays.",
+  "shipping.description": "Livraison rapide et sécurisée dans plus de 50 pays. Formalités douanières et emballage professionnel inclus.",
   "shipping.button": "Obtenir un devis",
 
   "process.badge": "NOTRE PROCESSUS",
@@ -65,21 +66,21 @@
   "process.subtitle": "Nous réalisons votre restaurant en quatre étapes.",
 
   "process.step1.title": "1. Étude Gratuite",
-  "process.step1.text": "Nous analysons votre espace et vos besoins gratuitement.",
+  "process.step1.text": "Nous analysons votre espace et vos besoins gratuitement. Mesures et premières idées partagées.",
 
   "process.step2.title": "2. Conception",
-  "process.step2.text": "Plans 3D, conception ergonomique et étude des coûts.",
+  "process.step2.text": "Plans 3D, conception ergonomique et étude des coûts. Nos architectes préparent le projet détaillé.",
 
   "process.step3.title": "3. Fabrication",
-  "process.step3.text": "Production, rénovation et installation des équipements.",
+  "process.step3.text": "Production, rénovation et installation des équipements. Nous coordonnons tout le processus.",
 
   "process.step4.title": "4. Livraison & Assistance",
-  "process.step4.text": "Tests, garantie, formation et support technique.",
+  "process.step4.text": "Tests, garantie, formation et support technique. Nous assurons aussi la logistique internationale.",
 
   "about.badge": "À PROPOS",
   "about.title": "Qui est Tuncerdesing ?",
   "about.text1": "Depuis 2009, nous proposons des solutions complètes en cuisine professionnelle.",
-  "about.text2": "Nous accompagnons nos clients de la conception jusqu'à la mise en service.",
+  "about.text2": "Nous accompagnons nos clients de la conception jusqu'à la mise en service avec notre équipe experte.",
 
   "about.feature1.title": "Certificats Qualité",
   "about.feature1.text": "ISO 9001, Certifié CE",
@@ -94,7 +95,7 @@
   "about.feature4.text": "Fabricant Direct",
 
   "cta.title": "Prêt à créer votre entreprise ?",
-  "cta.description": "Commencez avec notre étude gratuite.",
+  "cta.description": "Commencez avec notre étude gratuite. Notre équipe visitera votre local.",
   "cta.call": "Appelez maintenant :",
   "cta.form": "Remplir le formulaire",
 
@@ -131,6 +132,9 @@
 
   "form.consent": "J'autorise l'utilisation de mes coordonnées pour bénéficier de l'étude gratuite.",
   "form.send": "Envoyer",
+
+  "toast.success": "Succès !",
+  "toast.message": "Votre message a été reçu. Nous vous contacterons dans les plus brefs délais.",
 
   "footer.quickLinks": "Liens Rapides",
   "footer.home": "Accueil",
