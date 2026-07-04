@@ -91,21 +91,60 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Contact Form
+// Contact Form - Formspree Entegrasyonu
 const contactForm = document.getElementById('contactForm');
 
 if (contactForm) {
     contactForm.addEventListener('submit', function (e) {
         e.preventDefault();
 
-        const toast = document.getElementById('toast');
-        if (toast) toast.classList.add('show');
+        const formData = new FormData(this);
+        const action = this.getAttribute('action');
+        const submitBtn = this.querySelector('button[type="submit"]');
+        const originalText = submitBtn.innerHTML;
 
-        this.reset();
+        // Butonu yükleme durumuna getir
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Gönderiliyor...';
 
-        setTimeout(() => {
-            if (toast) toast.classList.remove('show');
-        }, 4000);
+        fetch(action, {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'Accept': 'application/json'
+            }
+        })
+        .then(response => {
+            if (response.ok) {
+                return response.json();
+            } else {
+                throw new Error('Gönderim başarısız');
+            }
+        })
+        .then(data => {
+            // Başarılı
+            const toast = document.getElementById('toast');
+            if (toast) {
+                toast.querySelector('.font-bold').textContent = 'Başarılı!';
+                toast.querySelector('.text-sm').textContent = 'Mesajınız alındı, en kısa sürede dönüş yapacağız.';
+                toast.classList.add('show');
+            }
+
+            this.reset();
+
+            setTimeout(() => {
+                if (toast) toast.classList.remove('show');
+            }, 4000);
+        })
+        .catch(error => {
+            console.error('Hata:', error);
+            alert('Mesaj gönderilemedi. Lütfen tekrar deneyin veya doğrudan arayın: 0536 985 29 26');
+        })
+        .finally(() => {
+            // Butonu eski haline getir
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = originalText;
+        });
     });
 }
 
