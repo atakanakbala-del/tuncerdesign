@@ -55,9 +55,87 @@
   "services.s6.title": "24/7 Technical Support",
   "services.s6.text": "Maintenance, repair, spare parts and remote support after installation.",
 
+  "common.details": "Details",
+
   "shipping.title": "Worldwide Delivery",
   "shipping.description": "Safe and fast logistics solutions to more than 50 countries. Door-to-door delivery including customs clearance and professional packaging.",
   "shipping.button": "Get International Quote",
+
+  "process.badge": "OUR PROCESS",
+  "process.title": "How We Work?",
+  "process.subtitle": "We turn your restaurant dream into reality in four steps.",
+
+  "process.step1.title": "Free Site Inspection",
+  "process.step1.text": "We inspect your location on-site, analyze your needs, take measurements and share initial ideas. This stage is completely free.",
+
+  "process.step2.title": "Planning & Design",
+  "process.step2.text": "3D modeling, kitchen layout, ergonomic planning and cost analysis. Our architects and engineers prepare the complete project.",
+
+  "process.step3.title": "Production & Installation",
+  "process.step3.text": "Custom equipment manufacturing, renovation, electrical and plumbing works, signage installation. We coordinate the entire process.",
+
+  "process.step4.title": "Delivery & Support",
+  "process.step4.text": "Equipment testing, staff training, warranty documents and 24/7 technical support. We also provide logistics support for international deliveries.",
+
+  "about.badge": "ABOUT US",
+  "about.title": "Who is Tuncerdesign?",
+  "about.text1": "Since 2009, Tuncerdesign has been a leading company in the industrial kitchen sector, providing complete solutions under one roof.",
+
+  "about.text2": "We do more than sell equipment. From planning to opening your business, we stand by your side every step of the way. With custom manufacturing, an experienced technical team and a global logistics network, we deliver world-class service.",
+
+  "about.feature1.title": "Quality Certificates",
+  "about.feature1.text": "ISO 9001, CE Certified",
+
+  "about.feature2.title": "2-Year Warranty",
+  "about.feature2.text": "On All Equipment",
+
+  "about.feature3.title": "Fast Delivery",
+  "about.feature3.text": "48 Hours for Stock Items",
+
+  "about.feature4.title": "Competitive Price",
+  "about.feature4.text": "Direct from Manufacturer",
+
+  "cta.title": "Ready to Build Your Dream Business?",
+  "cta.description": "Start with our free consultation. Our expert team will visit your location and offer the most suitable solutions.",
+  "cta.call": "Call Now:",
+  "cta.form": "Fill Form",
+
+  "contact.badge": "CONTACT",
+  "contact.title": "Contact Us",
+  "contact.description": "Fill out the form for a free consultation and quotation, or call us directly.",
+
+  "contact.phone": "Phone",
+  "contact.available": "Available now",
+  "contact.email": "E-mail",
+  "contact.address": "Address",
+  "contact.addressText": "Industrial Zone, Workshop No:15<br>Istanbul / Turkey",
+  "contact.hours": "Working Hours",
+  "contact.hoursText": "Mon-Sat: 08:00-18:00<br>Sunday: Closed",
+
+  "form.name": "Full Name",
+  "form.phone": "Phone Number",
+  "form.email": "E-mail",
+  "form.service": "Service Type",
+  "form.message": "Your Message",
+
+  "form.namePlaceholder": "Your Full Name",
+  "form.phonePlaceholder": "05XX XXX XX XX",
+  "form.emailPlaceholder": "example@email.com",
+  "form.messagePlaceholder": "Tell us briefly about your project...",
+
+  "form.option1": "Industrial Kitchen",
+  "form.option2": "Restaurant Setup",
+  "form.option3": "Renovation",
+  "form.option4": "Architectural Support",
+  "form.option5": "Signage",
+  "form.option6": "Technical Support",
+  "form.option7": "Other",
+
+  "form.consent": "I would like to receive a free consultation and allow my contact information to be used.",
+  "form.send": "Send",
+
+  "toast.success": "Success!",
+  "toast.message": "Your message has been received. We will contact you as soon as possible.",
 
   "footer.quickLinks": "Quick Links",
   "footer.home": "Home",
@@ -73,103 +151,9 @@
 
   "footer.contactTitle": "Contact",
 
-  "common.details": "Details",
+  "footer.copyright": "© 2024 Tuncerdesign. All rights reserved.",
+  "footer.privacy": "Privacy Policy",
+  "footer.terms": "Terms of Use",
 
-  "copyright": "© 2024 Tuncerdesign. All rights reserved.",
-
-  "marquee": "INDUSTRIAL KITCHENS • CUSTOM MANUFACTURING • INSTALLATION • RENOVATION • ARCHITECTURE • TECHNICAL SUPPORT • INTERNATIONAL DELIVERY • FREE DISCOVERY • PLANNING • INDUSTRIAL KITCHENS • CUSTOM MANUFACTURING • INSTALLATION • RENOVATION • ARCHITECTURE • TECHNICAL SUPPORT • INTERNATIONAL DELIVERY • FREE DISCOVERY • PLANNING •",
-"process.badge": "OUR PROCESS",
-"process.title": "How We Work?",
-"process.subtitle": "We turn your restaurant dream into reality in four steps.",
-
-"process.step1.title": "Free Site Inspection",
-"process.step1.text": "We inspect your location on-site, analyze your needs, take measurements and share initial ideas. This stage is completely free.",
-
-"process.step2.title": "Planning & Design",
-"process.step2.text": "3D modeling, kitchen layout, ergonomic planning and cost analysis. Our architects and engineers prepare the complete project.",
-
-"process.step3.title": "Production & Installation",
-"process.step3.text": "Custom equipment manufacturing, renovation, electrical and plumbing works, signage installation. We coordinate the entire process.",
-
-"process.step4.title": "Delivery & Support",
-"process.step4.text": "Equipment testing, staff training, warranty documents and 24/7 technical support. We also provide logistics support for international deliveries.",
-
-"about.badge": "ABOUT US",
-"about.title": "Who is Tuncerdesign?",
-"about.text1": "Since 2009, Tuncerdesign has been a leading company in the industrial kitchen sector, providing complete solutions under one roof.",
-
-"about.text2": "We do more than sell equipment. From planning to opening your business, we stand by your side every step of the way. With custom manufacturing, an experienced technical team and a global logistics network, we deliver world-class service.",
-
-"about.feature1.title": "Quality Certificates",
-"about.feature1.text": "ISO 9001, CE Certified",
-
-"about.feature2.title": "2-Year Warranty",
-"about.feature2.text": "On All Equipment",
-"about.feature3.title": "Worldwide Delivery",
-"about.feature3.text": "50+ Countries",
-
-"about.feature4.title": "Turnkey Solutions",
-"about.feature4.text": "From A to Z",
-
-"cta.badge": "READY TO START?",
-"cta.title": "Ready to Build Your Dream Business?",
-"cta.description": "Let's design and build your restaurant or commercial kitchen together. Contact us for a free consultation.",
-"cta.button": "Get Free Consultation",
-
-"contact.badge": "CONTACT",
-"contact.title": "Let's Talk About Your Project",
-"contact.description": "Contact us for industrial kitchen, restaurant setup, custom manufacturing and international delivery.",
-
-"contact.phone.title": "Phone",
-"contact.address.title": "Address",
-"contact.email.title": "E-mail",
-"contact.hours.title": "Working Hours",
-
-"contact.hours.value": "Mon - Sat: 08:00 - 18:00",
-
-"form.name": "Full Name",
-"form.phone": "Phone Number",
-"form.email": "E-mail",
-"form.company": "Company",
-"form.message": "Your Message",
-"form.submit": "Send Message",
-"toast.success": "Success!",
-"toast.message": "Your message has been received. We will contact you as soon as possible.",
-"contact.available": "Available now",
-"contact.addressText": "Industrial Zone, Workshop No:15<br>Istanbul / Turkey",
-"contact.hours": "Working Hours",
-"contact.hoursText": "Mon-Sat: 08:00-18:00<br>Sunday: Closed",
-
-"form.service": "Service Type",
-
-"form.option1": "Industrial Kitchen",
-"form.option2": "Restaurant Setup",
-"form.option3": "Renovation",
-"form.option4": "Architectural Support",
-"form.option5": "Signage",
-"form.option6": "Technical Support",
-"form.option7": "Other",
-
-"form.namePlaceholder": "Your Full Name",
-"form.phonePlaceholder": "05XX XXX XX XX",
-"form.emailPlaceholder": "example@email.com",
-"form.messagePlaceholder": "Tell us briefly about your project...",
-
-"form.consent": "I would like to receive a free consultation and allow my contact information to be used.",
-
-"footer.copyright": "© 2024 Tuncerdesign. All rights reserved.",
-"hero.experience": "Years Industry Experience",
-
-"common.callNow": "Call Now",
-"common.fillForm": "Fill Form",
-
-"contact.subtitle": "Fill out the form for a free consultation and quotation, or call us directly.",
-
-"footer.description": "15+ years of experience in industrial kitchens and restaurant solutions. Custom manufacturing, installation, renovation and global logistics.",
-
-"footer.privacy": "Privacy Policy",
-"footer.terms": "Terms of Use",
-
-"common.readMore": "Details"
-
+  "marquee.text": "INDUSTRIAL KITCHEN • CUSTOM MANUFACTURING • INSTALLATION • RENOVATION • ARCHITECTURE • TECHNICAL SUPPORT • INTERNATIONAL DELIVERY • FREE DISCOVERY • PLANNING •"
 }
