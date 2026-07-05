@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q03VTGHTE0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-Q03VTGHTE0');
+</script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -699,10 +708,55 @@
         </div>
     </footer>
 
-    <!-- WhatsApp Float -->
-    <a href="https://wa.me/905369852926" target="_blank" rel="noopener" class="fixed bottom-6 right-6 w-14 h-14 bg-green-500 rounded-full flex items-center justify-center text-white text-2xl shadow-lg hover:bg-green-600 transition z-50 animate-bounce">
-        <i class="fab fa-whatsapp"></i>
-    </a>
+    
+<!-- WhatsApp Chat Widget -->
+<style>
+.whatsapp-chat {
+    position: fixed;
+    bottom: 6rem;
+    right: 1.5rem;
+    width: 60px;
+    height: 60px;
+    background: #25D366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+    cursor: pointer;
+    z-index: 50;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.whatsapp-chat:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+}
+.whatsapp-tooltip {
+    position: absolute;
+    right: 70px;
+    background: #333;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 13px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+.whatsapp-chat:hover .whatsapp-tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+</style>
+<a href="https://wa.me/905369852926?text=Merhaba%2C%20Tuncerdesing%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum." target="_blank" rel="noopener" class="whatsapp-chat">
+    <i class="fab fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">Bize WhatsApp'tan yazın</span>
+</a>
+
 
     <script src="js/language.js"></script>
     <script src="js/main.js"></script>
