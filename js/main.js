@@ -164,6 +164,7 @@ if (!isTouchDevice) {
     });
 }
 
+
 // Dinamik yıl güncelleme
 document.querySelectorAll('[data-i18n="footer.copyright"]').forEach(el => {
     const currentYear = new Date().getFullYear();
