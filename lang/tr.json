@@ -1,161 +1,79 @@
 {
+  "toast.success": "Başarılı!",
+  "toast.message": "Mesajınız alındı, en kısa sürede dönüş yapacağız.",
   "nav.home": "Anasayfa",
   "nav.services": "Hizmetler",
   "nav.process": "Süreç",
   "nav.about": "Hakkımızda",
   "nav.contact": "İletişim",
-
   "hero.support": "7/24 Teknik Destek",
   "hero.title1": "Restoranınızı",
   "hero.title2": "Baştan Sona",
   "hero.title3": "Biz Kuruyoruz",
-
   "hero.description": "Endüstriyel mutfak ekipmanları, özel üretim, kurulum, tadilat, mimarlık desteği ve dünya çapında teslimat.",
   "hero.freePlan": "Ücretsiz keşif ve planlama",
   "hero.description2": "hizmetimizle hayalinizdeki işletmeyi gerçeğe dönüştürüyoruz.",
-
   "hero.button1": "Ücretsiz Keşif Al",
   "hero.button2": "Hizmetlerimiz",
-
   "hero.countries": "50+ Ülkeye",
   "hero.delivery": "Teslimat",
-
   "hero.video": "Tanıtım Videomuz",
   "hero.videoTime": "2:45 dk",
-
   "hero.projects": "Tamamlanan Proje",
   "hero.global": "Global",
   "hero.logistics": "Lojistik Ağı",
-
+  "marquee.text": "ENDÜSTRİYEL MUTFAK • ÖZEL ÜRETİM • KURULUM • TADİLAT • MİMARLIK • TEKNİK DESTEK • YURT DIŞI TESLİMAT • ÜCRETSİZ KEŞİF • PLANLAMA •",
   "stats.title": "İstatistiklerimiz",
   "stats.projects": "Tamamlanan Proje",
   "stats.countries": "Ülkeye Teslimat",
   "stats.experience": "Yıllık Deneyim",
   "stats.satisfaction": "Müşteri Memnuniyeti %",
-
   "services.badge": "HİZMETLERİMİZ",
   "services.title": "Kapsamlı Çözüm Ortağınız",
   "services.description": "Restoran ve işletme kurulumunun her aşamasında yanınızdayız. Tüm hizmetleri tek çatı altında sunuyoruz.",
-
   "services.s1title": "Endüstriyel Mutfak",
   "services.s1desc": "Paslanmaz çelik mutfak ekipmanları, ocaklar, fırınlar, davlumbazlar ve özel üretim çözümleri.",
-
   "services.s2.title": "Mimarlık Desteği",
   "services.s2.text": "İç mekan tasarımı, mutfak planlaması, ergonomik düzen ve estetik çözümler.",
-
   "services.s3.title": "Özel Üretim",
   "services.s3.text": "İsteğe bağlı özel ölçü ve tasarımlarda mutfak ekipmanları üretimi.",
-
   "services.s4.title": "Tadilat & İnşaat",
   "services.s4.text": "Komple restoran tadilatı, elektrik, su tesisatı, zemin ve duvar işleri.",
-
   "services.s5.title": "Tabela & Görsel",
   "services.s5.text": "Işıklı tabela, kutu harf, dijital baskı, menü panoları ve kurumsal kimlik.",
-
   "services.s6.title": "7/24 Teknik Destek",
   "services.s6.text": "Kurulum sonrası bakım, onarım, yedek parça ve uzaktan destek hizmetleri.",
-
   "common.details": "Detaylar",
-
   "shipping.title": "Dünya Çapında Teslimat",
   "shipping.description": "50'den fazla ülkeye güvenli ve hızlı lojistik çözümleri. Gümrük işlemleri ve paketlemeyle birlikte kapıdan kapıya teslimat.",
   "shipping.button": "Uluslararası Teklif Al",
-
   "process.badge": "SÜRECİMİZ",
   "process.title": "Nasıl Çalışıyoruz?",
   "process.subtitle": "Restoranınızı hayalden gerçeğe dört adımda ulaştırıyoruz.",
-
   "process.step1.title": "1. Ücretsiz Keşif",
   "process.step1.text": "Mekanınızı yerinde inceliyoruz. İhtiyaçlarınızı analiz ediyor, ölçümler yapıyor ve ilk fikirleri paylaşıyoruz. Bu aşama tamamen ücretsizdir.",
-
   "process.step2.title": "2. Planlama & Tasarım",
   "process.step2.text": "3D modelleme, mutfak düzeni, ergonomi planlaması ve maliyet analizi. Mimarlarımız ve mühendislerimiz detaylı projeyi hazırlar.",
-
   "process.step3.title": "3. Üretim & Uygulama",
   "process.step3.text": "Özel üretim ekipmanlar, tadilat işleri, elektrik ve su tesisatı, tabela montajı. Tüm süreçleri koordine edip takip ediyoruz.",
-
   "process.step4.title": "4. Teslimat & Destek",
   "process.step4.text": "Ekipman testleri, personel eğitimi, garanti belgeleri ve 7/24 teknik destek hattı. Yurt dışı teslimatlarımızda lojistik desteği sağlıyoruz.",
-
   "about.badge": "HAKKIMIZDA",
   "about.title": "Tuncerdesing Kimdir?",
   "about.text1": "2009'dan bu yana endüstriyel mutfak sektöründe faaliyet gösteren Tuncerdesing, müşterilerine tek çatı altında kapsamlı çözümler sunan öncü bir firmadır.",
   "about.text2": "Sadece ekipman satmıyor, işletmenizin kurulumundan işletmeye alınmasına kadar her adımda yanınızda oluyoruz. Özel üretim kapasitemiz, deneyimli teknik ekibimiz ve global lojistik ağımızla dünya standartlarında hizmet üretiyoruz.",
-
   "about.feature1.title": "Kalite Sertifikaları",
   "about.feature1.text": "ISO 9001, CE Belgeli",
-
   "about.feature2.title": "2 Yıl Garanti",
   "about.feature2.text": "Tüm Ekipmanlarda",
-
   "about.feature3.title": "Hızlı Teslimat",
   "about.feature3.text": "Stoklu Ürünlerde 48 Saat",
-
   "about.feature4.title": "Uygun Fiyat",
   "about.feature4.text": "Doğrudan Üretici",
-
   "cta.title": "Hayalinizdeki İşletmeyi Kurmaya Hazır mısınız?",
   "cta.description": "Ücretsiz keşif hizmetimizle başlayın. Uzman ekibimiz mekanınızı ziyaret edip, en uygun çözümleri sunsun.",
   "cta.call": "Hemen Ara:",
   "cta.form": "Form Doldur",
-
-  "contact.badge": "İLETİŞİM",
-  "contact.title": "Bize Ulaşın",
-  "contact.description": "Ücretsiz keşif ve fiyat teklifi için form doldurun veya doğrudan arayın.",
-
-  "contact.phone": "Telefon",
-  "contact.available": "Şu an müsait",
-  "contact.email": "E-posta",
-  "contact.address": "Adres",
-  "contact.addressText": "Sanayi Bölgesi, Atölye No:15<br>İstanbul / Türkiye",
-  "contact.hours": "Çalışma Saatleri",
-  "contact.hoursText": "Pzt-Cmt:08:00-18:00<br>Pazar: Kapalı",
-
-  "form.name": "Ad Soyad",
-  "form.phone": "Telefon",
-  "form.email": "E-posta",
-  "form.service": "Hizmet Türü",
-  "form.message": "Mesajınız",
-
-  "form.namePlaceholder": "Adınız Soyadınız",
-  "form.phonePlaceholder": "05XX XXX XX XX",
-  "form.emailPlaceholder": "ornek@email.com",
-  "form.messagePlaceholder": "Projeniz hakkında kısa bilgi verin...",
-
-  "form.option1": "Endüstriyel Mutfak",
-  "form.option2": "Restoran Kurulumu",
-  "form.option3": "Tadilat",
-  "form.option4": "Mimarlık Desteği",
-  "form.option5": "Tabela",
-  "form.option6": "Teknik Destek",
-  "form.option7": "Diğer",
-
-  "form.consent": "Ücretsiz keşif hizmeti almak istiyorum ve iletişim bilgilerimin kullanılmasına izin veriyorum.",
-  "form.send": "Gönder",
-
-  "toast.success": "Başarılı!",
-  "toast.message": "Mesajınız alındı, en kısa sürede dönüş yapacağız.",
-
-  "footer.quickLinks": "Hızlı Linkler",
-  "footer.home": "Anasayfa",
-  "footer.services": "Hizmetler",
-  "footer.process": "Süreç",
-  "footer.about": "Hakkımızda",
-
-  "footer.servicesTitle": "Hizmetler",
-  "footer.service1": "Endüstriyel Mutfak",
-  "footer.service2": "Özel Üretim",
-  "footer.service3": "Mimarlık",
-  "footer.service4": "Yurt Dışı Teslimat",
-
-  "footer.contactTitle": "İletişim",
-
-  "footer.copyright": "© 2024 Tuncerdesing. Tüm hakları saklıdır.",
-  "footer.privacy": "Gizlilik Politikası",
-  "footer.terms": "Kullanım Koşulları",
-
-  "marquee.text": "ENDÜSTRİYEL MUTFAK • ÖZEL ÜRETİM • KURULUM • TADİLAT • MİMARLIK • TEKNİK DESTEK • YURT DIŞI TESLİMAT • ÜCRETSİZ KEŞİF • PLANLAMA •",
-  
   "faq.badge": "SIKÇA SORULAN SORULAR",
   "faq.title": "Merak Edilenler",
   "faq.subtitle": "Endüstriyel mutfak ve restoran kurulumu hakkında sık sorulan sorular.",
@@ -168,5 +86,47 @@
   "faq.q4": "Özel üretim mutfak ekipmanı yaptırabilir miyim?",
   "faq.a4": "Kesinlikle. Paslanmaz çelik üzerine isteğe özel ölçü, tasarım ve fonksiyonlarda mutfak ekipmanları üretiyoruz. 3D modelleme ve prototip üretimi ile istediğiniz ürünü hayata geçiriyoruz.",
   "faq.q5": "Garanti ve teknik destek hizmetiniz var mı?",
-  "faq.a5": "Tüm ekipmanlarımızda 2 yıl garanti sunuyoruz. Kurulum sonrası 7/24 teknik destek hattımız, bakım, onarım ve yedek parça hizmetlerimizle yanınızdayız. Uzaktan destek imkanı da mevcuttur."
+  "faq.a5": "Tüm ekipmanlarımızda 2 yıl garanti sunuyoruz. Kurulum sonrası 7/24 teknik destek hattımız, bakım, onarım ve yedek parça hizmetlerimizle yanınızdayız. Uzaktan destek imkanı da mevcuttur.",
+  "contact.badge": "İLETİŞİM",
+  "contact.title": "Bize Ulaşın",
+  "contact.description": "Ücretsiz keşif ve fiyat teklifi için form doldurun veya doğrudan arayın.",
+  "contact.phone": "Telefon",
+  "contact.available": "Şu an müsait",
+  "contact.email": "E-posta",
+  "contact.address": "Adres",
+  "contact.addressText": "Sanayi Bölgesi, Atölye No: 15\nİstanbul / Türkiye",
+  "contact.hours": "Çalışma Saatleri",
+  "contact.hoursText": "Pzt-Cmt: 08:00-18:00\nPazar: Kapalı",
+  "form.name": "Ad Soyad",
+  "form.namePlaceholder": "Adınız Soyadınız",
+  "form.phone": "Telefon",
+  "form.phonePlaceholder": "05XX XXX XX XX",
+  "form.email": "E-posta",
+  "form.emailPlaceholder": "ornek@email.com",
+  "form.service": "Hizmet Türü",
+  "form.option1": "Endüstriyel Mutfak",
+  "form.option2": "Restoran Kurulumu",
+  "form.option3": "Tadilat",
+  "form.option4": "Mimarlık Desteği",
+  "form.option5": "Tabela",
+  "form.option6": "Teknik Destek",
+  "form.option7": "Diğer",
+  "form.message": "Mesajınız",
+  "form.messagePlaceholder": "Projeniz hakkında kısa bilgi verin...",
+  "form.consent": "Ücretsiz keşif hizmeti almak istiyorum ve iletişim bilgilerimin kullanılmasına izin veriyorum.",
+  "form.send": "Gönder",
+  "footer.quickLinks": "Hızlı Linkler",
+  "footer.home": "Anasayfa",
+  "footer.services": "Hizmetler",
+  "footer.process": "Süreç",
+  "footer.about": "Hakkımızda",
+  "footer.servicesTitle": "Hizmetler",
+  "footer.service1": "Endüstriyel Mutfak",
+  "footer.service2": "Özel Üretim",
+  "footer.service3": "Mimarlık",
+  "footer.service4": "Yurt Dışı Teslimat",
+  "footer.contactTitle": "İletişim",
+  "footer.copyright": "© 2024 Tuncerdesing. Tüm hakları saklıdır.",
+  "footer.privacy": "Gizlilik Politikası",
+  "footer.terms": "Kullanım Koşulları"
 }
