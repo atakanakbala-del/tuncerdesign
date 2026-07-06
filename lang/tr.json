@@ -154,5 +154,19 @@
   "footer.privacy": "Gizlilik Politikası",
   "footer.terms": "Kullanım Koşulları",
 
-  "marquee.text": "ENDÜSTRİYEL MUTFAK • ÖZEL ÜRETİM • KURULUM • TADİLAT • MİMARLIK • TEKNİK DESTEK • YURT DIŞI TESLİMAT • ÜCRETSİZ KEŞİF • PLANLAMA •"
+  "marquee.text": "ENDÜSTRİYEL MUTFAK • ÖZEL ÜRETİM • KURULUM • TADİLAT • MİMARLIK • TEKNİK DESTEK • YURT DIŞI TESLİMAT • ÜCRETSİZ KEŞİF • PLANLAMA •",
+  
+  "faq.badge": "SIKÇA SORULAN SORULAR",
+  "faq.title": "Merak Edilenler",
+  "faq.subtitle": "Endüstriyel mutfak ve restoran kurulumu hakkında sık sorulan sorular.",
+  "faq.q1": "Endüstriyel mutfak ekipmanları fiyatları nedir?",
+  "faq.a1": "Fiyatlar projeye ve ekipman türüne göre değişir. Paslanmaz çelik ocak, fırın, davlumbaz gibi standart ürünler için fiyat listemiz mevcuttur. Özel üretim projeleri için ücretsiz keşif hizmetimizle net fiyat teklifi sunuyoruz.",
+  "faq.q2": "Restoran kurulumu ne kadar sürer?",
+  "faq.a2": "Projenin büyüklüğüne bağlı olarak 2-8 hafta arası değişir. Küçük mutfak düzenlemeleri 1-2 haftada tamamlanırken, komple restoran kurulumu ortalama 4-6 hafta sürmektedir. Detaylı proje takvimi planlama aşamasında sunulur.",
+  "faq.q3": "Yurt dışına mutfak ekipmanı gönderiyor musunuz?",
+  "faq.a3": "Evet, 50'den fazla ülkeye güvenli ve hızlı lojistik çözümleri sunuyoruz. Gümrük işlemleri, paketleme ve kapıdan kapıya teslimat hizmetlerimizle birlikte uluslararası projelerinizi sorunsuz tamamlıyoruz.",
+  "faq.q4": "Özel üretim mutfak ekipmanı yaptırabilir miyim?",
+  "faq.a4": "Kesinlikle. Paslanmaz çelik üzerine isteğe özel ölçü, tasarım ve fonksiyonlarda mutfak ekipmanları üretiyoruz. 3D modelleme ve prototip üretimi ile istediğiniz ürünü hayata geçiriyoruz.",
+  "faq.q5": "Garanti ve teknik destek hizmetiniz var mı?",
+  "faq.a5": "Tüm ekipmanlarımızda 2 yıl garanti sunuyoruz. Kurulum sonrası 7/24 teknik destek hattımız, bakım, onarım ve yedek parça hizmetlerimizle yanınızdayız. Uzaktan destek imkanı da mevcuttur."
 }
