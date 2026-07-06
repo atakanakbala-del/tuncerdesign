@@ -154,5 +154,18 @@
   "footer.privacy": "Politique de confidentialité",
   "footer.terms": "Conditions d'utilisation",
 
-  "marquee.text": "CUISINE INDUSTRIELLE • FABRICATION SUR MESURE • INSTALLATION • RÉNOVATION • ARCHITECTURE • SUPPORT TECHNIQUE • LIVRAISON INTERNATIONALE • ÉTUDE GRATUITE • PLANIFICATION •"
+  "marquee.text": "CUISINE INDUSTRIELLE • FABRICATION SUR MESURE • INSTALLATION • RÉNOVATION • ARCHITECTURE • SUPPORT TECHNIQUE • LIVRAISON INTERNATIONALE • ÉTUDE GRATUITE • PLANIFICATION •",
+  "faq.badge": "QUESTIONS FRÉQUEMMENT POSÉES",
+  "faq.title": "Curiosités",
+  "faq.subtitle": "Questions fréquemment posées sur la cuisine industrielle et l'installation de restaurant.",
+  "faq.q1": "Quels sont les prix des équipements de cuisine industrielle ?",
+  "faq.a1": "Les prix varient selon le projet et le type d'équipement. Nous disposons de listes de prix pour les produits standards tels que les poêles, fours et hottes en acier inoxydable. Pour les projets de fabrication sur mesure, nous offrons un service d'inspection gratuit avec un devis clair.",
+  "faq.q2": "Combien de temps dure l'installation d'un restaurant ?",
+  "faq.a2": "Cela varie entre 2 et 8 semaines selon l'ampleur du projet. Les petits aménagements de cuisine sont terminés en 1 à 2 semaines, tandis que l'installation complète d'un restaurant prend en moyenne 4 à 6 semaines. Un calendrier de projet détaillé est fourni lors de la phase de planification.",
+  "faq.q3": "Expédiez-vous des équipements de cuisine à l'étranger ?",
+  "faq.a3": "Oui, nous proposons des solutions logistiques sûres et rapides vers plus de 50 pays. Nous menons à bien vos projets internationaux en toute fluidité avec nos procédures de douane, emballage et services de livraison porte-à-porte.",
+  "faq.q4": "Puis-je faire fabriquer des équipements de cuisine sur mesure ?",
+  "faq.a4": "Absolument. Nous fabriquons des équipements de cuisine en tailles, designs et fonctions personnalisés sur acier inoxydable. Nous donnons vie au produit de votre choix avec la modélisation 3D et la production de prototypes.",
+  "faq.q5": "Avez-vous des services de garantie et de support technique ?",
+  "faq.a5": "Nous offrons une garantie de 2 ans sur tous nos équipements. Nous sommes à vos côtés avec notre ligne de support technique 24h/24 et 7j/7, nos services de maintenance, réparation et pièces de rechange après l'installation. Le support à distance est également disponible."
 }
