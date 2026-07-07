@@ -1,128 +1,109 @@
 {
+  "toast.success": "Success!",
+  "toast.message": "Your message has been received, we will get back to you as soon as possible.",
   "nav.home": "Home",
   "nav.services": "Services",
   "nav.process": "Process",
   "nav.about": "About Us",
   "nav.contact": "Contact",
-
   "hero.support": "24/7 Technical Support",
-  "hero.title1": "We Build",
-  "hero.title2": "Your Restaurant",
-  "hero.title3": "From Start to Finish",
-
+  "hero.title1": "We Build Your",
+  "hero.title2": "Restaurant From",
+  "hero.title3": "Start to Finish",
   "hero.description": "Industrial kitchen equipment, custom manufacturing, installation, renovation, architectural support and worldwide delivery.",
-  "hero.freePlan": "Free consultation & planning",
-  "hero.description2": "to turn your dream business into reality.",
-
-  "hero.button1": "Get Free Consultation",
+  "hero.freePlan": "Free inspection and planning",
+  "hero.description2": "we turn your dream business into reality.",
+  "hero.button1": "Get Free Inspection",
   "hero.button2": "Our Services",
-
   "hero.countries": "50+ Countries",
   "hero.delivery": "Delivery",
-
-  "hero.video": "Introduction Video",
+  "hero.video": "Our Promo Video",
   "hero.videoTime": "2:45 min",
-
   "hero.projects": "Completed Projects",
   "hero.global": "Global",
   "hero.logistics": "Logistics Network",
-
+  "marquee.text": "INDUSTRIAL KITCHEN • CUSTOM MANUFACTURING • INSTALLATION • RENOVATION • ARCHITECTURE • TECHNICAL SUPPORT • INTERNATIONAL DELIVERY • FREE INSPECTION • PLANNING •",
   "stats.title": "Our Statistics",
   "stats.projects": "Completed Projects",
   "stats.countries": "Countries Delivered",
   "stats.experience": "Years of Experience",
   "stats.satisfaction": "Customer Satisfaction %",
-
   "services.badge": "OUR SERVICES",
-  "services.title": "Your Complete Solution Partner",
-  "services.description": "We are with you at every stage of restaurant setup.",
-
+  "services.title": "Your Comprehensive Solution Partner",
+  "services.description": "We are with you at every stage of restaurant and business setup. We offer all services under one roof.",
   "services.s1title": "Industrial Kitchen",
   "services.s1desc": "Stainless steel kitchen equipment, stoves, ovens, hoods and custom manufacturing solutions.",
-
   "services.s2.title": "Architectural Support",
   "services.s2.text": "Interior design, kitchen planning, ergonomic layout and aesthetic solutions.",
-
   "services.s3.title": "Custom Manufacturing",
-  "services.s3.text": "Custom-sized and specially designed kitchen equipment manufacturing.",
-
+  "services.s3.text": "Kitchen equipment manufacturing in custom sizes and designs on request.",
   "services.s4.title": "Renovation & Construction",
   "services.s4.text": "Complete restaurant renovation, electrical, plumbing, flooring and wall works.",
-
-  "services.s5.title": "Signage & Visual Design",
+  "services.s5.title": "Signage & Visual",
   "services.s5.text": "Illuminated signs, channel letters, digital printing, menu boards and corporate identity.",
-
   "services.s6.title": "24/7 Technical Support",
-  "services.s6.text": "Maintenance, repair, spare parts and remote support after installation.",
-
+  "services.s6.text": "Post-installation maintenance, repair, spare parts and remote support services.",
   "common.details": "Details",
-
   "shipping.title": "Worldwide Delivery",
-  "shipping.description": "Safe and fast logistics solutions to more than 50 countries. Door-to-door delivery including customs clearance and professional packaging.",
+  "shipping.description": "Safe and fast logistics solutions to over 50 countries. Door-to-door delivery with customs procedures and packaging.",
   "shipping.button": "Get International Quote",
-
   "process.badge": "OUR PROCESS",
-  "process.title": "How We Work?",
-  "process.subtitle": "We turn your restaurant dream into reality in four steps.",
-
-  "process.step1.title": "Free Site Inspection",
-  "process.step1.text": "We inspect your location on-site, analyze your needs, take measurements and share initial ideas. This stage is completely free.",
-
-  "process.step2.title": "Planning & Design",
-  "process.step2.text": "3D modeling, kitchen layout, ergonomic planning and cost analysis. Our architects and engineers prepare the complete project.",
-
-  "process.step3.title": "Production & Installation",
-  "process.step3.text": "Custom equipment manufacturing, renovation, electrical and plumbing works, signage installation. We coordinate the entire process.",
-
-  "process.step4.title": "Delivery & Support",
-  "process.step4.text": "Equipment testing, staff training, warranty documents and 24/7 technical support. We also provide logistics support for international deliveries.",
-
+  "process.title": "How Do We Work?",
+  "process.subtitle": "We take your restaurant from dream to reality in four steps.",
+  "process.step1.title": "1. Free Inspection",
+  "process.step1.text": "We examine your premises on-site. We analyze your needs, take measurements and share initial ideas. This stage is completely free.",
+  "process.step2.title": "2. Planning & Design",
+  "process.step2.text": "3D modeling, kitchen layout, ergonomics planning and cost analysis. Our architects and engineers prepare the detailed project.",
+  "process.step3.title": "3. Production & Implementation",
+  "process.step3.text": "Custom equipment production, renovation works, electrical and plumbing, sign installation. We coordinate and follow all processes.",
+  "process.step4.title": "4. Delivery & Support",
+  "process.step4.text": "Equipment testing, staff training, warranty documents and 24/7 technical support line. We provide logistics support for international deliveries.",
   "about.badge": "ABOUT US",
-  "about.title": "Who is Tuncerdesign?",
-  "about.text1": "Since 2009, Tuncerdesign has been a leading company in the industrial kitchen sector, providing complete solutions under one roof.",
-
-  "about.text2": "We do more than sell equipment. From planning to opening your business, we stand by your side every step of the way. With custom manufacturing, an experienced technical team and a global logistics network, we deliver world-class service.",
-
+  "about.title": "Who is Tuncerdesing?",
+  "about.text1": "Since 2009, Tuncerdesing has been a pioneering company in the industrial kitchen sector, offering comprehensive solutions to its customers under one roof.",
+  "about.text2": "We don't just sell equipment; we are with you at every step from setup to operation. With our custom manufacturing capacity, experienced technical team and global logistics network, we produce world-class services.",
   "about.feature1.title": "Quality Certificates",
   "about.feature1.text": "ISO 9001, CE Certified",
-
-  "about.feature2.title": "2-Year Warranty",
+  "about.feature2.title": "2 Year Warranty",
   "about.feature2.text": "On All Equipment",
-
   "about.feature3.title": "Fast Delivery",
   "about.feature3.text": "48 Hours for Stock Items",
-
-  "about.feature4.title": "Competitive Price",
+  "about.feature4.title": "Affordable Prices",
   "about.feature4.text": "Direct from Manufacturer",
-
   "cta.title": "Ready to Build Your Dream Business?",
-  "cta.description": "Start with our free consultation. Our expert team will visit your location and offer the most suitable solutions.",
+  "cta.description": "Start with our free inspection service. Our expert team will visit your premises and offer the most suitable solutions.",
   "cta.call": "Call Now:",
-  "cta.form": "Fill Form",
-
+  "cta.form": "Fill the Form",
+  "faq.badge": "FREQUENTLY ASKED QUESTIONS",
+  "faq.title": "Curious About",
+  "faq.subtitle": "Frequently asked questions about industrial kitchen and restaurant setup.",
+  "faq.q1": "What are the prices of industrial kitchen equipment?",
+  "faq.a1": "Prices vary depending on the project and equipment type. We have price lists for standard products such as stainless steel stoves, ovens and hoods. For custom production projects, we offer a free inspection service with a clear price quote.",
+  "faq.q2": "How long does restaurant setup take?",
+  "faq.a2": "It varies between 2-8 weeks depending on the size of the project. Small kitchen arrangements are completed in 1-2 weeks, while complete restaurant setup takes an average of 4-6 weeks. A detailed project timeline is provided during the planning phase.",
+  "faq.q3": "Do you ship kitchen equipment abroad?",
+  "faq.a3": "Yes, we offer safe and fast logistics solutions to over 50 countries. We complete your international projects seamlessly with our customs procedures, packaging and door-to-door delivery services.",
+  "faq.q4": "Can I have custom kitchen equipment manufactured?",
+  "faq.a4": "Absolutely. We manufacture kitchen equipment in custom sizes, designs and functions on stainless steel. We bring your desired product to life with 3D modeling and prototype production.",
+  "faq.q5": "Do you have warranty and technical support services?",
+  "faq.a5": "We offer a 2-year warranty on all our equipment. We are with you with our 24/7 technical support line, maintenance, repair and spare parts services after installation. Remote support is also available.",
   "contact.badge": "CONTACT",
   "contact.title": "Contact Us",
-  "contact.description": "Fill out the form for a free consultation and quotation, or call us directly.",
-
+  "contact.description": "Fill out the form for a free inspection and price quote, or call us directly.",
   "contact.phone": "Phone",
   "contact.available": "Available now",
-  "contact.email": "E-mail",
+  "contact.email": "Email",
   "contact.address": "Address",
-  "contact.addressText": "Industrial Zone, Workshop No:15<br>Istanbul / Turkey",
+  "contact.addressText": "Industrial Zone, Workshop No: 15\nIstanbul / Turkey",
   "contact.hours": "Working Hours",
-  "contact.hoursText": "Mon-Sat: 08:00-18:00<br>Sunday: Closed",
-
+  "contact.hoursText": "Mon-Sat: 08:00-18:00\nSunday: Closed",
   "form.name": "Full Name",
-  "form.phone": "Phone Number",
-  "form.email": "E-mail",
-  "form.service": "Service Type",
-  "form.message": "Your Message",
-
   "form.namePlaceholder": "Your Full Name",
+  "form.phone": "Phone",
   "form.phonePlaceholder": "05XX XXX XX XX",
+  "form.email": "Email",
   "form.emailPlaceholder": "example@email.com",
-  "form.messagePlaceholder": "Tell us briefly about your project...",
-
+  "form.service": "Service Type",
   "form.option1": "Industrial Kitchen",
   "form.option2": "Restaurant Setup",
   "form.option3": "Renovation",
@@ -130,43 +111,22 @@
   "form.option5": "Signage",
   "form.option6": "Technical Support",
   "form.option7": "Other",
-
-  "form.consent": "I would like to receive a free consultation and allow my contact information to be used.",
+  "form.message": "Your Message",
+  "form.messagePlaceholder": "Brief information about your project...",
+  "form.consent": "I want to receive the free inspection service and allow my contact information to be used.",
   "form.send": "Send",
-
-  "toast.success": "Success!",
-  "toast.message": "Your message has been received. We will contact you as soon as possible.",
-
   "footer.quickLinks": "Quick Links",
   "footer.home": "Home",
   "footer.services": "Services",
   "footer.process": "Process",
   "footer.about": "About Us",
-
   "footer.servicesTitle": "Services",
   "footer.service1": "Industrial Kitchen",
   "footer.service2": "Custom Manufacturing",
   "footer.service3": "Architecture",
   "footer.service4": "International Delivery",
-
   "footer.contactTitle": "Contact",
-
-  "footer.copyright": "© 2024 Tuncerdesign. All rights reserved.",
+  "footer.copyright": "© 2024 Tuncerdesing. All rights reserved.",
   "footer.privacy": "Privacy Policy",
-  "footer.terms": "Terms of Use",
-
-  "marquee.text": "INDUSTRIAL KITCHEN • CUSTOM MANUFACTURING • INSTALLATION • RENOVATION • ARCHITECTURE • TECHNICAL SUPPORT • INTERNATIONAL DELIVERY • FREE DISCOVERY • PLANNING •",
-  "faq.badge": "FREQUENTLY ASKED QUESTIONS",
-  "faq.title": "Curious About",
-  "faq.subtitle": "Frequently asked questions about industrial kitchen and restaurant setup.",
-  "faq.q1": "What are the prices of industrial kitchen equipment?",
-  "faq.a1": "Prices vary depending on the project and equipment type. We have price lists for standard products such as stainless steel stoves, ovens, and hoods. For custom production projects, we offer a free inspection service with a clear price quote.",
-  "faq.q2": "How long does restaurant setup take?",
-  "faq.a2": "It varies between 2-8 weeks depending on the size of the project. Small kitchen arrangements are completed in 1-2 weeks, while complete restaurant setup takes an average of 4-6 weeks. A detailed project timeline is provided during the planning phase.",
-  "faq.q3": "Do you ship kitchen equipment abroad?",
-  "faq.a3": "Yes, we offer safe and fast logistics solutions to over 50 countries. We complete your international projects seamlessly with our customs procedures, packaging, and door-to-door delivery services.",
-  "faq.q4": "Can I have custom kitchen equipment manufactured?",
-  "faq.a4": "Absolutely. We manufacture kitchen equipment in custom sizes, designs, and functions on stainless steel. We bring your desired product to life with 3D modeling and prototype production.",
-  "faq.q5": "Do you have warranty and technical support services?",
-  "faq.a5": "We offer a 2-year warranty on all our equipment. We are with you with our 24/7 technical support line, maintenance, repair, and spare parts services after installation. Remote support is also available."
+  "footer.terms": "Terms of Use"
 }
