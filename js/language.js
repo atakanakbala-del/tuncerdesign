@@ -57,19 +57,6 @@ async function loadLanguage(lang) {
             current.textContent = languageNames[lang];
         }
 
-        // ============================================
-        // MOBİL DİL BUTONLARINI GÜNCELLE (aktif olanı vurgula)
-        // ============================================
-        document.querySelectorAll('.lang-btn-mobile').forEach(btn => {
-            if (btn.dataset.lang === lang) {
-                btn.classList.add('bg-[#1e3a5f]', 'text-white');
-                btn.classList.remove('border-gray-200');
-            } else {
-                btn.classList.remove('bg-[#1e3a5f]', 'text-white');
-                btn.classList.add('border-gray-200');
-            }
-        });
-
         // Kaydet
         localStorage.setItem("language", lang);
 
@@ -102,23 +89,4 @@ document.addEventListener("DOMContentLoaded", () => {
             });
         });
     }
-
-    // ============================================
-    // MOBİL DİL SEÇİCİ DESTEĞİ (buraya ekleyin)
-    // ============================================
-    document.querySelectorAll('.lang-btn-mobile').forEach(btn => {
-        btn.addEventListener('click', function() {
-            const lang = this.dataset.lang;
-            loadLanguage(lang);
-            
-            // Menüyü kapat
-            const mobileMenu = document.getElementById('mobileMenu');
-            if (mobileMenu) {
-                mobileMenu.classList.remove('active');
-            }
-            
-            // Eğer menü kapatma fonksiyonunuz farklıysa (örneğin style.display kullanıyorsanız):
-            // if (mobileMenu) mobileMenu.style.display = 'none';
-        });
-    });
 });
