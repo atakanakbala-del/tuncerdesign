@@ -275,16 +275,7 @@
                         </div>
                     </div>
 
-                    <!-- Mobile Menu Button -->
-                    <button class="md:hidden text-[#1e3a5f] text-2xl" id="menuBtn">
-                        <i class="fas fa-bars"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Mobile Menu -->
+                        <!-- Mobile Menu -->
     <div class="mobile-menu fixed inset-0 bg-white z-50 p-8" id="mobileMenu">
         <div class="flex justify-between items-center mb-12">
             <div class="font-display text-xl font-bold text-[#1e3a5f]">Tuncerdesing</div>
@@ -298,13 +289,32 @@
             <a href="#surec" class="text-2xl font-medium text-gray-800 mobile-link" data-i18n="nav.process">Süreç</a>
             <a href="#hakkimizda" class="text-2xl font-medium text-gray-800 mobile-link" data-i18n="nav.about">Hakkımızda</a>
             <a href="#iletisim" class="text-2xl font-medium text-gray-800 mobile-link" data-i18n="nav.contact">İletişim</a>
-            <a href="tel:+905369852926" class="text-2xl font-medium text-[#1e3a5f] flex items-center gap-3">
+            
+            <!-- ✅ MOBİL DİL SEÇİCİ EKLENDİ -->
+            <div class="pt-4 border-t border-gray-200">
+                <div class="text-sm text-gray-500 mb-3 font-medium" data-i18n="nav.language">Dil Seçimi</div>
+                <div class="flex flex-wrap gap-2">
+                    <button class="lang-btn-mobile flex items-center gap-2 px-4 py-2 rounded-full border border-gray-200 hover:bg-gray-50 transition text-sm" data-lang="tr">
+                        <span>🇹🇷</span> Türkçe
+                    </button>
+                    <button class="lang-btn-mobile flex items-center gap-2 px-4 py-2 rounded-full border border-gray-200 hover:bg-gray-50 transition text-sm" data-lang="en">
+                        <span>🇬🇧</span> English
+                    </button>
+                    <button class="lang-btn-mobile flex items-center gap-2 px-4 py-2 rounded-full border border-gray-200 hover:bg-gray-50 transition text-sm" data-lang="fr">
+                        <span>🇫🇷</span> Français
+                    </button>
+                    <button class="lang-btn-mobile flex items-center gap-2 px-4 py-2 rounded-full border border-gray-200 hover:bg-gray-50 transition text-sm" data-lang="ar">
+                        <span>🇸🇦</span> العربية
+                    </button>
+                </div>
+            </div>
+            
+            <a href="tel:+905369852926" class="text-2xl font-medium text-[#1e3a5f] flex items-center gap-3 pt-4 border-t border-gray-200">
                 <i class="fas fa-phone"></i>
                 0536 985 29 26
             </a>
         </div>
     </div>
-
     <!-- Hero Section -->
     <section id="anasayfa" class="hero-bg min-h-screen flex items-center pt-20 relative">
         <div class="hero-shape w-96 h-96 -top-20 -right-20"></div>
