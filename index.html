@@ -216,8 +216,47 @@
     <base target="_blank">
 <base target="_blank">
 <base target="_blank">
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', 'META_PIXEL_ID'); // <-- Pixel ID'nizi buraya yazın
+    fbq('track', 'PageView');
+    </script>
+    <noscript>
+    <img height="1" width="1" style="display:none" 
+         src="https://www.facebook.com/tr?id=META_PIXEL_ID&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Meta Pixel Code -->
+
+<base target="_blank">
 </head>
 <body>
+    <!-- Cookie Consent Banner -->
+    <div id="cookieBanner" class="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 shadow-2xl z-[60] transform translate-y-full transition-transform duration-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div class="text-sm text-gray-600 max-w-2xl">
+                <i class="fas fa-cookie-bite text-[#c9a962] mr-2"></i>
+                <strong class="text-[#1e3a5f]">Çerez Kullanımı:</strong> 
+                Web sitemizde size en iyi deneyimi sunmak için çerez ve analitik araçlar (Google Analytics, Meta Pixel) kullanıyoruz. 
+                <a href="gizlilik-politikasi.html" class="text-[#1e3a5f] underline hover:text-[#c9a962]">Gizlilik Politikamızı</a> inceleyebilirsiniz.
+            </div>
+            <div class="flex gap-3 flex-shrink-0">
+                <button onclick="rejectCookies()" class="px-4 py-2 text-sm text-gray-500 hover:text-gray-700 transition">Reddet</button>
+                <button onclick="acceptCookies()" class="px-6 py-2 text-sm bg-[#1e3a5f] text-white rounded-full hover:bg-[#2c5282] transition font-medium">
+                    Kabul Et
+                </button>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Loader -->
     <div class="loader" id="loader">
@@ -955,7 +994,7 @@
                 <div class="text-sm text-white/40" data-i18n="footer.copyright">© 2024 Tuncerdesing. Tüm hakları saklıdır.</div>
                 <div class="flex gap-4 text-sm text-white/40">
                     <a href="gizlilik-politikasi.html" class="hover:text-white transition" data-i18n="footer.privacy">Gizlilik Politikası</a>
-                    <a href="#" class="hover:text-white transition" data-i18n="footer.terms">Kullanım Koşulları</a>
+                    <a href="kullanim-kosullari.html" class="hover:text-white transition" data-i18n="footer.terms">Kullanım Koşulları</a>
                 </div>
             </div>
         </div>
@@ -1012,6 +1051,31 @@
 
 
  
+    
+    <script>
+    // Cookie Consent Management
+    function acceptCookies() {
+        localStorage.setItem('cookieConsent', 'accepted');
+        document.getElementById('cookieBanner').classList.add('translate-y-full');
+        // Google Analytics ve Meta Pixel aktif
+        gtag('consent', 'update', { 'analytics_storage': 'granted', 'ad_storage': 'granted' });
+    }
+    function rejectCookies() {
+        localStorage.setItem('cookieConsent', 'rejected');
+        document.getElementById('cookieBanner').classList.add('translate-y-full');
+        // Google Analytics ve Meta Pixel devre dışı
+        gtag('consent', 'update', { 'analytics_storage': 'denied', 'ad_storage': 'denied' });
+    }
+    // Sayfa yüklenince kontrol et
+    window.addEventListener('load', function() {
+        if (!localStorage.getItem('cookieConsent')) {
+            setTimeout(function() {
+                document.getElementById('cookieBanner').classList.remove('translate-y-full');
+            }, 1500);
+        }
+    });
+    </script>
+
     <script src="js/language.js"></script>
     <script src="js/main.js"></script>
 </body>
