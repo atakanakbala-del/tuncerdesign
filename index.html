@@ -227,7 +227,7 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', 'META_PIXEL_ID'); // <-- Pixel ID'nizi buraya yazın
+    fbq('init', '1469752137354959');
     fbq('track', 'PageView');
     </script>
     <noscript>
@@ -236,6 +236,7 @@
     </noscript>
     <!-- End Meta Pixel Code -->
 
+<base target="_blank">
 <base target="_blank">
 </head>
 <body>
@@ -1053,27 +1054,33 @@
  
     
     <script>
-    // Cookie Consent Management
-    function acceptCookies() {
-        localStorage.setItem('cookieConsent', 'accepted');
-        document.getElementById('cookieBanner').classList.add('translate-y-full');
-        // Google Analytics ve Meta Pixel aktif
-        gtag('consent', 'update', { 'analytics_storage': 'granted', 'ad_storage': 'granted' });
-    }
-    function rejectCookies() {
-        localStorage.setItem('cookieConsent', 'rejected');
-        document.getElementById('cookieBanner').classList.add('translate-y-full');
-        // Google Analytics ve Meta Pixel devre dışı
-        gtag('consent', 'update', { 'analytics_storage': 'denied', 'ad_storage': 'denied' });
-    }
-    // Sayfa yüklenince kontrol et
-    window.addEventListener('load', function() {
-        if (!localStorage.getItem('cookieConsent')) {
-            setTimeout(function() {
-                document.getElementById('cookieBanner').classList.remove('translate-y-full');
-            }, 1500);
+    (function() {
+        function showBanner() {
+            var banner = document.getElementById('cookieBanner');
+            if (banner) banner.classList.remove('translate-y-full');
         }
-    });
+        function hideBanner() {
+            var banner = document.getElementById('cookieBanner');
+            if (banner) banner.classList.add('translate-y-full');
+        }
+        window.acceptCookies = function() {
+            localStorage.setItem('cookieConsent', 'accepted');
+            hideBanner();
+        };
+        window.rejectCookies = function() {
+            localStorage.setItem('cookieConsent', 'rejected');
+            hideBanner();
+        };
+        if (!localStorage.getItem('cookieConsent')) {
+            if (document.readyState === 'complete') {
+                setTimeout(showBanner, 1500);
+            } else {
+                window.addEventListener('load', function() {
+                    setTimeout(showBanner, 1500);
+                });
+            }
+        }
+    })();
     </script>
 
     <script src="js/language.js"></script>
