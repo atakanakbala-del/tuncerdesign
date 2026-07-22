@@ -1,0 +1,39 @@
+# Tuncerdesing
+
+> Tuncerdesing, İstanbul merkezli, 2009'dan bu yana faaliyet gösteren bir endüstriyel mutfak ekipmanları ve restoran kurulum firmasıdır. Paslanmaz çelik mutfak ekipmanları üretimi, özel üretim, restoran tadilat ve inşaatı, mimarlık desteği, tabela/görsel kimlik tasarımı, 7/24 teknik destek ve 50'den fazla ülkeye ihracat hizmeti sunar.
+
+## Şirket Bilgileri
+- Telefon: +90 536 985 29 26
+- E-posta: info@tuncerdesing.com
+- Adres: Sanayi Bölgesi, Atölye No: 15, Şişli / İstanbul, Türkiye
+- Kuruluş: 2009
+- Diller: Türkçe (varsayılan), İngilizce, Fransızca, Arapça
+
+## Hizmetler
+- [Endüstriyel Mutfak Ekipmanları](https://tuncerdesing.com/endustriyel-mutfak-ekipmanlari.html): Paslanmaz çelik ocak, fırın, fritöz, davlumbaz ve pişirme sistemleri.
+- [Mimarlık Desteği](https://tuncerdesing.com/mimarlik-destegi.html): 3D mutfak/mekan modelleme, ergonomik iş akışı planlaması.
+- [Özel Üretim Mutfak Ekipmanları](https://tuncerdesing.com/ozel-uretim-mutfak-ekipmanlari.html): Mekana özel ölçü ve tasarımda paslanmaz çelik üretim.
+- [Restoran Tadilat ve İnşaat](https://tuncerdesing.com/restoran-tadilat-insaat.html): Elektrik, su tesisatı, zemin/duvar işleri, anahtar teslim proje yönetimi.
+- [Tabela ve Görsel Kimlik Tasarımı](https://tuncerdesing.com/tabela-gorsel-tasarim.html): Işıklı tabela, kutu harf, menü panoları, kurumsal kimlik.
+- [7/24 Teknik Destek ve Bakım](https://tuncerdesing.com/teknik-destek-bakim.html): Periyodik bakım, yedek parça, arıza müdahalesi, kurulum sonrası destek.
+
+Hizmet sayfaları İngilizce (`/en/`), Fransızca (`/fr/`) ve Arapça (`/ar/`) olarak da mevcuttur.
+
+## Blog
+Restoran ve endüstriyel mutfak konularında rehberler: [Blog Ana Sayfası](https://tuncerdesing.com/blog/) (TR, [EN](https://tuncerdesing.com/en/blog/), [FR](https://tuncerdesing.com/fr/blog/), [AR](https://tuncerdesing.com/ar/blog/))
+- Restoran açarken mutfak ekipmanı maliyeti nasıl hesaplanır
+- Endüstriyel mutfak ekipmanı seçerken dikkat edilecek kriterler
+- Paslanmaz çelik mutfak ekipmanlarının bakımı ve temizliği
+- Restoran mutfağında doğru davlumbaz ve havalandırma sistemi seçimi
+- Restoran açarken izin ve ruhsat süreci
+- Küçük mutfaklar için alan tasarrufu sağlayan ekipman çözümleri
+- Restoran mutfak ekipmanlarında enerji verimliliği
+- Mutfak ekipmanlarında ISO 9001 ve CE sertifikasının önemi
+- Cafe, pastane ve restoran için ekipman ihtiyaçları farkları
+- Mutfak ekipmanlarını yurt dışına ihraç ederken dikkat edilmesi gerekenler
+
+## Diğer
+- [Ana Sayfa](https://tuncerdesing.com/): Hizmetler, süreç, hakkımızda, SSS ve iletişim bölümlerini içerir.
+- [Site Haritası](https://tuncerdesing.com/sitemap.xml)
+- [Gizlilik Politikası](https://tuncerdesing.com/gizlilik-politikasi.html)
+- [Kullanım Koşulları](https://tuncerdesing.com/kullanim-kosullari.html)
