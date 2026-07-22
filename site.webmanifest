@@ -1,0 +1,25 @@
+{
+  "name": "Tuncerdesing - Endüstriyel Mutfak Ekipmanları",
+  "short_name": "Tuncerdesing",
+  "icons": [
+    {
+      "src": "/images/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#1e3a5f",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/"
+}
