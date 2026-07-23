@@ -74,7 +74,6 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Flip.min.js"></script>
 
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></noscript>
@@ -587,86 +586,87 @@
     </section>
 
     <!-- Projects Gallery -->
-    <section class="projects-bento-section">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center mb-12 reveal">
-            <div class="inline-block px-4 py-1 bg-[#c9a962]/10 text-[#c9a962] rounded-full text-sm font-bold mb-4">NOS PROJETS</div>
-            <h2 class="font-display text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-4">Nos Réalisations</h2>
-            <p class="text-gray-600 max-w-2xl mx-auto">Une sélection de projets que nous avons fabriqués et installés en Turquie et à l'étranger.</p>
-        </div>
-        <div class="gallery-wrap">
-            <div class="gallery gallery--bento" id="projectsGallery">
-            <div class="gallery__item">
-                <img src="/images/projects/baklava-standi-tekirdag.jpg" alt="Comptoir à baklava sur mesure Acemoğlu Baklavaları - Tekirdağ" loading="lazy" width="797" height="532" />
-                <div class="gallery__caption">
-                    <div>
-                        <div class="gallery__caption-title">Comptoir à Baklava</div>
-                        <div class="gallery__caption-sub">Acemoğlu Baklavaları, Tekirdağ</div>
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 reveal">
+                <div class="inline-block px-4 py-1 bg-[#c9a962]/10 text-[#c9a962] rounded-full text-sm font-bold mb-4">NOS PROJETS</div>
+                <h2 class="font-display text-4xl lg:text-5xl font-bold text-[#1e3a5f] mb-4">Nos Réalisations</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">Une sélection de projets que nous avons fabriqués et installés en Turquie et à l'étranger.</p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6">
+                <div class="img-hover relative shadow-lg reveal">
+                    <img src="/images/projects/baklava-standi-tekirdag.jpg" alt="Comptoir à baklava sur mesure Acemoğlu Baklavaları - Tekirdağ" loading="lazy" width="797" height="532" class="w-full h-48 md:h-56 object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent flex items-end p-4">
+                        <div>
+                            <div class="text-white font-bold text-sm">Comptoir à Baklava</div>
+                            <div class="text-white/70 text-xs">Acemoğlu Baklavaları, Tekirdağ</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="gallery__item">
-                <img src="/images/projects/borek-tezgahi.jpg" alt="Comptoir à börek sur mesure Tarihi Karaköy Börekçisi" loading="lazy" width="797" height="532" />
-                <div class="gallery__caption">
-                    <div>
-                        <div class="gallery__caption-title">Comptoir à Börek</div>
-                        <div class="gallery__caption-sub">Tarihi Karaköy Börekçisi</div>
+                <div class="img-hover relative shadow-lg reveal">
+                    <img src="/images/projects/borek-tezgahi.jpg" alt="Comptoir à börek sur mesure Tarihi Karaköy Börekçisi" loading="lazy" width="797" height="532" class="w-full h-48 md:h-56 object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent flex items-end p-4">
+                        <div>
+                            <div class="text-white font-bold text-sm">Comptoir à Börek</div>
+                            <div class="text-white/70 text-xs">Tarihi Karaköy Börekçisi</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="gallery__item">
-                <img src="/images/projects/dondurma-standi.jpg" alt="Stand de glaces et milkshakes Cream Berry" loading="lazy" width="797" height="532" />
-                <div class="gallery__caption">
-                    <div>
-                        <div class="gallery__caption-title">Stand de Glaces et Milkshakes</div>
-                        <div class="gallery__caption-sub">Cream Berry</div>
+                <div class="img-hover relative shadow-lg reveal">
+                    <img src="/images/projects/dondurma-standi.jpg" alt="Stand de glaces et milkshakes Cream Berry" loading="lazy" width="797" height="532" class="w-full h-48 md:h-56 object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent flex items-end p-4">
+                        <div>
+                            <div class="text-white font-bold text-sm">Stand de Glaces et Milkshakes</div>
+                            <div class="text-white/70 text-xs">Cream Berry</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="gallery__item">
-                <img src="/images/projects/fast-food-bankosu.jpg" alt="Comptoir de service sur mesure VeggyGO Street Food Eatery" loading="lazy" width="797" height="532" />
-                <div class="gallery__caption">
-                    <div>
-                        <div class="gallery__caption-title">Comptoir de Service Sur Mesure</div>
-                        <div class="gallery__caption-sub">VeggyGO Street Food Eatery</div>
+                <div class="img-hover relative shadow-lg reveal">
+                    <img src="/images/projects/fast-food-bankosu.jpg" alt="Comptoir de service sur mesure VeggyGO Street Food Eatery" loading="lazy" width="797" height="532" class="w-full h-48 md:h-56 object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent flex items-end p-4">
+                        <div>
+                            <div class="text-white font-bold text-sm">Comptoir de Service Sur Mesure</div>
+                            <div class="text-white/70 text-xs">VeggyGO Street Food Eatery</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="gallery__item">
-                <img src="/images/projects/oses-cigkofte.jpg" alt="Comptoir de service Öses Çiğköfte" loading="lazy" width="797" height="532" />
-                <div class="gallery__caption">
-                    <div>
-                        <div class="gallery__caption-title">Comptoir de Service</div>
-                        <div class="gallery__caption-sub">Öses Çiğköfte</div>
+                <div class="img-hover relative shadow-lg reveal">
+                    <img src="/images/projects/oses-cigkofte.jpg" alt="Comptoir de service Öses Çiğköfte" loading="lazy" width="797" height="532" class="w-full h-48 md:h-56 object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent flex items-end p-4">
+                        <div>
+                            <div class="text-white font-bold text-sm">Comptoir de Service</div>
+                            <div class="text-white/70 text-xs">Öses Çiğköfte</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="gallery__item">
-                <img src="/images/projects/pamuk-sekeri-standi-avusturya.jpg" alt="Stand de barbe à papa Cook & Sweet - Autriche" loading="lazy" width="797" height="532" />
-                <div class="gallery__caption">
-                    <div>
-                        <div class="gallery__caption-title">Stand de Barbe à Papa</div>
-                        <div class="gallery__caption-sub">Cook & Sweet, Autriche</div>
+                <div class="img-hover relative shadow-lg reveal">
+                    <img src="/images/projects/pamuk-sekeri-standi-avusturya.jpg" alt="Stand de barbe à papa Cook & Sweet - Autriche" loading="lazy" width="797" height="532" class="w-full h-48 md:h-56 object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent flex items-end p-4">
+                        <div>
+                            <div class="text-white font-bold text-sm">Stand de Barbe à Papa</div>
+                            <div class="text-white/70 text-xs">Cook & Sweet, Autriche</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="gallery__item">
-                <img src="/images/projects/pasta-dolabi-salatbar-koln-almanya.jpg" alt="Vitrine à pâtisseries et bar à salades - Cologne, Allemagne" loading="lazy" width="797" height="532" />
-                <div class="gallery__caption">
-                    <div>
-                        <div class="gallery__caption-title">Vitrine à Pâtisseries et Bar à Salades</div>
-                        <div class="gallery__caption-sub">Cologne, Allemagne</div>
+                <div class="img-hover relative shadow-lg reveal">
+                    <img src="/images/projects/pasta-dolabi-salatbar-koln-almanya.jpg" alt="Vitrine à pâtisseries et bar à salades - Cologne, Allemagne" loading="lazy" width="797" height="532" class="w-full h-48 md:h-56 object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent flex items-end p-4">
+                        <div>
+                            <div class="text-white font-bold text-sm">Vitrine à Pâtisseries et Bar à Salades</div>
+                            <div class="text-white/70 text-xs">Cologne, Allemagne</div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="gallery__item">
-                <img src="/images/projects/pilavci-sevket-usta.jpg" alt="Comptoir de service restaurant Pilavcı Şevket Usta" loading="lazy" width="797" height="532" />
-                <div class="gallery__caption">
-                    <div>
-                        <div class="gallery__caption-title">Comptoir de Service Restaurant</div>
-                        <div class="gallery__caption-sub">Pilavcı Şevket Usta</div>
+                <div class="img-hover relative shadow-lg reveal">
+                    <img src="/images/projects/pilavci-sevket-usta.jpg" alt="Comptoir de service restaurant Pilavcı Şevket Usta" loading="lazy" width="797" height="532" class="w-full h-48 md:h-56 object-cover">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/75 via-black/10 to-transparent flex items-end p-4">
+                        <div>
+                            <div class="text-white font-bold text-sm">Comptoir de Service Restaurant</div>
+                            <div class="text-white/70 text-xs">Pilavcı Şevket Usta</div>
+                        </div>
                     </div>
                 </div>
-            </div>
             </div>
         </div>
     </section>
