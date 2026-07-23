@@ -8,6 +8,58 @@ window.addEventListener('load', () => {
 
 // GSAP Animations
 gsap.registerPlugin(ScrollTrigger);
+if (typeof Flip !== 'undefined') gsap.registerPlugin(Flip);
+
+// Projects Bento Gallery (pinned scroll: mosaic -> full-bleed filmstrip)
+const projectsGallery = document.getElementById('projectsGallery');
+if (projectsGallery && typeof Flip !== 'undefined') {
+    const isCoarsePointerOrNarrow = window.matchMedia('(max-width: 900px), (pointer: coarse) and (max-width: 1024px)').matches;
+
+    if (!isCoarsePointerOrNarrow) {
+        let galleryFlipCtx;
+
+        const createGalleryTween = () => {
+            const galleryWrap = projectsGallery.closest('.gallery-wrap');
+            const galleryItems = projectsGallery.querySelectorAll('.gallery__item');
+            if (!galleryWrap || !galleryItems.length) return;
+
+            if (galleryFlipCtx) galleryFlipCtx.revert();
+            projectsGallery.classList.remove('gallery--final');
+
+            galleryFlipCtx = gsap.context(() => {
+                projectsGallery.classList.add('gallery--final');
+                const flipState = Flip.getState(galleryItems);
+                projectsGallery.classList.remove('gallery--final');
+
+                const flip = Flip.to(flipState, {
+                    simple: true,
+                    ease: 'expoScale(1, 5)'
+                });
+
+                const tl = gsap.timeline({
+                    scrollTrigger: {
+                        trigger: projectsGallery,
+                        start: 'center center',
+                        end: '+=100%',
+                        scrub: true,
+                        pin: galleryWrap
+                    }
+                });
+                tl.add(flip);
+
+                return () => gsap.set(galleryItems, { clearProps: 'all' });
+            });
+        };
+
+        createGalleryTween();
+
+        let galleryResizeTimeout;
+        window.addEventListener('resize', () => {
+            clearTimeout(galleryResizeTimeout);
+            galleryResizeTimeout = setTimeout(createGalleryTween, 250);
+        });
+    }
+}
 
 // Hero Rotating Word
 const heroRotatingWord = document.getElementById('heroRotatingWord');
