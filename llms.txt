@@ -33,7 +33,7 @@ Restoran ve endüstriyel mutfak konularında rehberler: [Blog Ana Sayfası](http
 - Mutfak ekipmanlarını yurt dışına ihraç ederken dikkat edilmesi gerekenler
 
 ## Diğer
-- [Ana Sayfa](https://tuncerdesing.com/): Hizmetler, süreç, hakkımızda, SSS ve iletişim bölümlerini içerir.
+- [Ana Sayfa](https://tuncerdesing.com/) (TR, [EN](https://tuncerdesing.com/en/index.html), [FR](https://tuncerdesing.com/fr/index.html), [AR](https://tuncerdesing.com/ar/index.html)): Hizmetler, süreç, hakkımızda, SSS ve iletişim bölümlerini içerir.
 - [Site Haritası](https://tuncerdesing.com/sitemap.xml)
 - [Gizlilik Politikası](https://tuncerdesing.com/gizlilik-politikasi.html)
 - [Kullanım Koşulları](https://tuncerdesing.com/kullanim-kosullari.html)

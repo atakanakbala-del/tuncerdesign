@@ -77,6 +77,21 @@ if (menuBtn && closeMenu && mobileMenu) {
     });
 }
 
+// Language Dropdown
+const languageButton = document.getElementById('languageButton');
+const languageMenu = document.getElementById('languageMenu');
+
+if (languageButton && languageMenu) {
+    languageButton.addEventListener('click', (e) => {
+        e.stopPropagation();
+        languageMenu.classList.toggle('hidden');
+    });
+
+    document.addEventListener('click', () => {
+        languageMenu.classList.add('hidden');
+    });
+}
+
 // Smooth Scroll
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
