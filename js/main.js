@@ -9,6 +9,37 @@ window.addEventListener('load', () => {
 // GSAP Animations
 gsap.registerPlugin(ScrollTrigger);
 
+// Hero Rotating Word
+const heroRotatingWord = document.getElementById('heroRotatingWord');
+if (heroRotatingWord) {
+    let heroWords = [];
+    try {
+        heroWords = JSON.parse(heroRotatingWord.dataset.words || '[]');
+    } catch (e) {
+        heroWords = [];
+    }
+
+    if (heroWords.length > 1) {
+        let heroWordIndex = 0;
+        setInterval(() => {
+            heroWordIndex = (heroWordIndex + 1) % heroWords.length;
+            gsap.to(heroRotatingWord, {
+                y: -12,
+                opacity: 0,
+                duration: 0.35,
+                ease: 'power2.in',
+                onComplete: () => {
+                    heroRotatingWord.textContent = heroWords[heroWordIndex];
+                    gsap.fromTo(heroRotatingWord,
+                        { y: 12, opacity: 0 },
+                        { y: 0, opacity: 1, duration: 0.4, ease: 'power2.out' }
+                    );
+                }
+            });
+        }, 2600);
+    }
+}
+
 // Reveal animations
 gsap.utils.toArray('.reveal').forEach(element => {
     gsap.fromTo(element,
